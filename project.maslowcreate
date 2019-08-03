@@ -1065,7 +1065,7 @@
                         "BOMitemName": "2 Place XH connector",
                         "numberNeeded": 1,
                         "costUSD": 0.1108,
-                        "source": "www.example.com",
+                        "source": "https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S2B-XH-A-LF-SN/455-2257-ND/1651055",
                         "totalNeeded": 0
                     }
                 },
@@ -1078,15 +1078,15 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -1124,11 +1124,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
