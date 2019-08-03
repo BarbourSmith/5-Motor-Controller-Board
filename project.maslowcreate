@@ -3,12 +3,51 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 203,
-            "y": 79,
+            "x": 205,
+            "y": 73,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 211,
+                    "y": 106,
+                    "uniqueID": 921444,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 200
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 75
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 391,
+                    "y": 127,
+                    "uniqueID": 651412,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 643,
+                    "y": 131,
+                    "uniqueID": 167167,
+                    "ioValues": [],
+                    "selectedColorIndex": "1"
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +56,25 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 921444,
+                    "ap2ID": 651412
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 651412,
+                    "ap2ID": 167167
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 167167
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -72,8 +129,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 203,
-                    "y": 79,
+                    "x": 205,
+                    "y": 73,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
@@ -94,6 +151,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 615,
+                    "y": 122,
+                    "uniqueID": 963382,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 628723",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 416631",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -101,7 +175,19 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 628723",
+                    "ap1ID": 770369,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 963382
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
