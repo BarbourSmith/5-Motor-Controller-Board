@@ -216,7 +216,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -227,7 +227,7 @@
                     "y": 115,
                     "uniqueID": 614155,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Translate",
