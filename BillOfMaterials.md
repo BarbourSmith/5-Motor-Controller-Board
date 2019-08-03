@@ -3,5 +3,5 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |PCBA Service|1|$4.00|https://macrofab.com/|
-|DRV7783|0|$0.00|www.example.com|
-|Total: |1|$4.00| |
+|DRV7783|5|$0.00|www.example.com|
+|Total: |6|$4.00| |
