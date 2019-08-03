@@ -522,12 +522,63 @@
         {
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 126,
-            "y": 92,
+            "x": 123,
+            "y": 89,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 147,
+                    "y": 121,
+                    "uniqueID": 178730,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 328,
+                    "y": 112,
+                    "uniqueID": 788250,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 501,
+                    "y": 114,
+                    "uniqueID": 785050,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -602,8 +653,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 185,
-            "y": 149,
+            "x": 188,
+            "y": 135,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -619,8 +670,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 126,
-                    "y": 92,
+                    "x": 123,
+                    "y": 89,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
@@ -716,8 +767,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 185,
-                    "y": 149,
+                    "x": 188,
+                    "y": 135,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
