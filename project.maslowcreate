@@ -80,8 +80,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 181,
-            "y": 159,
+            "x": 215,
+            "y": 157,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -316,7 +316,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 120
                         },
                         {
                             "name": "yDist",
@@ -337,7 +337,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 140
                         },
                         {
                             "name": "yDist",
@@ -560,8 +560,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 195,
-            "y": 253,
+            "x": 213,
+            "y": 248,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -607,6 +607,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 652,
+                    "y": 121,
+                    "uniqueID": 559386,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 670226",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 283090",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -614,7 +631,19 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 670226",
+                    "ap1ID": 264895,
+                    "ap2ID": 559386
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 559386
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -637,16 +666,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 181,
-                    "y": 159,
+                    "x": 215,
+                    "y": 157,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 195,
-                    "y": 253,
+                    "x": 213,
+                    "y": 248,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
@@ -667,6 +696,10 @@
                         },
                         {
                             "name": "3D shape 374430",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 260935",
                             "ioValue": 10
                         }
                     ]
@@ -690,6 +723,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 416631",
                     "ap1ID": 491176,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 374430",
+                    "ap1ID": 682781,
                     "ap2ID": 963382
                 },
                 {
