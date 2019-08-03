@@ -706,9 +706,29 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Voltage Regulator",
+            "x": 265,
+            "y": 265,
+            "uniqueID": 258403,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Chips",
-            "x": 188,
-            "y": 135,
+            "x": 181,
+            "y": 152,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -751,6 +771,14 @@
                     "x": 126,
                     "y": 261,
                     "uniqueID": 622327,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Voltage Regulator",
+                    "x": 265,
+                    "y": 265,
+                    "uniqueID": 258403,
                     "ioValues": []
                 },
                 {
@@ -831,8 +859,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 188,
-                    "y": 135,
+                    "x": 181,
+                    "y": 152,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
