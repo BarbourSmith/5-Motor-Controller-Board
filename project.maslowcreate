@@ -750,8 +750,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder Connectors",
-            "x": 128,
-            "y": 94,
+            "x": 137,
+            "y": 70,
             "uniqueID": 152306,
             "ioValues": [],
             "topLevel": false,
@@ -865,7 +865,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -886,7 +886,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -1058,8 +1058,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder Connectors",
-                    "x": 128,
-                    "y": 94,
+                    "x": 137,
+                    "y": 70,
                     "uniqueID": 152306,
                     "ioValues": []
                 },
@@ -1087,7 +1087,13 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 152306
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -1153,6 +1159,10 @@
                         {
                             "name": "3D shape 260935",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 820858",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1181,6 +1191,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 374430",
                     "ap1ID": 682781,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 260935",
+                    "ap1ID": 732073,
                     "ap2ID": 963382
                 },
                 {
