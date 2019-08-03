@@ -1325,8 +1325,8 @@
         {
             "atomType": "Molecule",
             "name": "Plugs",
-            "x": 170,
-            "y": 213,
+            "x": 185,
+            "y": 215,
             "uniqueID": 732073,
             "ioValues": [],
             "topLevel": false,
@@ -1441,8 +1441,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 170,
-                    "y": 213,
+                    "x": 185,
+                    "y": 215,
                     "uniqueID": 732073,
                     "ioValues": []
                 },
