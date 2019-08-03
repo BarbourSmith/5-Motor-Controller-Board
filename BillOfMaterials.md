@@ -2,5 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|PCBA Service|1|$4.00|www.example.com|
 |DRV7783|0|$0.00|www.example.com|
-|Total: |0|$0.00| |
+|Total: |1|$4.00| |

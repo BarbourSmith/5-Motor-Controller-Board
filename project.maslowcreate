@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 205,
-            "y": 73,
+            "x": 201,
+            "y": 64,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -49,6 +49,21 @@
                     "selectedColorIndex": "1"
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 920,
+                    "y": 153,
+                    "uniqueID": 148681,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "PCBA Service",
+                        "numberNeeded": 1,
+                        "costUSD": 4,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -71,8 +86,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 167167,
+                    "ap2ID": 148681
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 167167
+                    "ap1ID": 148681
                 }
             ],
             "fileTypeVersion": 1
@@ -80,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 215,
-            "y": 157,
+            "x": 207,
+            "y": 161,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -560,8 +581,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 213,
-            "y": 248,
+            "x": 210,
+            "y": 230,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -658,24 +679,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 205,
-                    "y": 73,
+                    "x": 201,
+                    "y": 64,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 215,
-                    "y": 157,
+                    "x": 207,
+                    "y": 161,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 213,
-                    "y": 248,
+                    "x": 210,
+                    "y": 230,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
