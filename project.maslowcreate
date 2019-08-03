@@ -80,12 +80,51 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 203,
-            "y": 165,
+            "x": 195,
+            "y": 164,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 163,
+                    "y": 142,
+                    "uniqueID": 157447,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 383,
+                    "y": 110,
+                    "uniqueID": 324918,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 579,
+                    "y": 89,
+                    "uniqueID": 766749,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -94,7 +133,25 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 157447,
+                    "ap2ID": 324918
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 324918,
+                    "ap2ID": 766749
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 766749
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -137,8 +194,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 203,
-                    "y": 165,
+                    "x": 195,
+                    "y": 164,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
