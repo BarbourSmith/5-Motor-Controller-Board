@@ -765,11 +765,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 7
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 7
                         }
                     ]
                 },
