@@ -22,6 +22,6 @@
 ## SPI Motor Controller
 
 
-## Molecule
+## Motor Plugs
 
 

@@ -223,7 +223,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Motor Plugs",
             "x": 135,
             "y": 194,
             "uniqueID": 712667,
@@ -268,7 +268,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
+                    "name": "Motor Plugs",
                     "x": 135,
                     "y": 194,
                     "uniqueID": 712667,
