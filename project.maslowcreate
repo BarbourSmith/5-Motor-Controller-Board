@@ -782,7 +782,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 5.75
                         }
                     ]
                 },
@@ -823,11 +823,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -844,11 +844,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -869,7 +869,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -890,7 +890,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
