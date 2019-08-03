@@ -554,7 +554,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -575,9 +575,33 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 645,
+                    "y": 116,
+                    "uniqueID": 372688,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 839,
+                    "y": 116,
+                    "uniqueID": 532250,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "TLC5947",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -587,7 +611,37 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 178730,
+                    "ap2ID": 788250
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 788250,
+                    "ap2ID": 785050
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 785050,
+                    "ap2ID": 372688
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 372688,
+                    "ap2ID": 532250
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 532250
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
