@@ -159,7 +159,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
@@ -647,8 +647,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 125,
-            "y": 147,
+            "x": 117,
+            "y": 146,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -705,7 +705,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -772,8 +772,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 181,
-            "y": 157,
+            "x": 178,
+            "y": 153,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -797,8 +797,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 125,
-                    "y": 147,
+                    "x": 117,
+                    "y": 146,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
@@ -1548,8 +1548,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 181,
-                    "y": 157,
+                    "x": 178,
+                    "y": 153,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
