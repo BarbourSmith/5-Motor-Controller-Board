@@ -193,8 +193,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 270,
-                    "y": 123,
+                    "x": 92,
+                    "y": 118,
                     "uniqueID": 622018,
                     "ioValues": [
                         {
@@ -210,8 +210,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 458,
-                    "y": 96,
+                    "x": 300,
+                    "y": 75,
                     "uniqueID": 266600,
                     "ioValues": [
                         {
@@ -223,17 +223,32 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 653,
-                    "y": 115,
+                    "x": 436,
+                    "y": 89,
                     "uniqueID": 614155,
                     "ioValues": [],
                     "selectedColorIndex": "3"
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 591,
+                    "y": 167,
+                    "uniqueID": 230187,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "DRV7783",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 810,
-                    "y": 119,
+                    "x": 960,
+                    "y": 105,
                     "uniqueID": 520889,
                     "ioValues": [
                         {
@@ -246,7 +261,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 2
                         }
                     ]
                 },
