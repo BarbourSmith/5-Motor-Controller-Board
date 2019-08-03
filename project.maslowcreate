@@ -184,12 +184,72 @@
         {
             "atomType": "Molecule",
             "name": "Motor Drivers",
-            "x": 126,
-            "y": 38,
+            "x": 125,
+            "y": 35,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 270,
+                    "y": 123,
+                    "uniqueID": 622018,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 458,
+                    "y": 96,
+                    "uniqueID": 266600,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 653,
+                    "y": 115,
+                    "uniqueID": 614155,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 810,
+                    "y": 119,
+                    "uniqueID": 520889,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -198,7 +258,26 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 622018,
+                    "ap2ID": 266600
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 266600,
+                    "ap2ID": 614155
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 614155,
+                    "ap2ID": 520889
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -293,8 +372,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
-                    "x": 126,
-                    "y": 38,
+                    "x": 125,
+                    "y": 35,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
