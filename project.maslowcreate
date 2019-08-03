@@ -2,6 +2,66 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "PCB",
+            "x": 203,
+            "y": 79,
+            "uniqueID": 770369,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "ESP32",
+            "x": 203,
+            "y": 165,
+            "uniqueID": 491176,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Chips",
+            "x": 198,
+            "y": 250,
+            "uniqueID": 682781,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "5 Motor Controller Board",
             "x": 0,
             "y": 0,
@@ -9,6 +69,30 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "PCB",
+                    "x": 203,
+                    "y": 79,
+                    "uniqueID": 770369,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "ESP32",
+                    "x": 203,
+                    "y": 165,
+                    "uniqueID": 491176,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Chips",
+                    "x": 198,
+                    "y": 250,
+                    "uniqueID": 682781,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
