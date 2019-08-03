@@ -3,5 +3,6 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |PCBA Service|1|$4.00|https://macrofab.com/|
+|name|0|$0.00|www.example.com|
 |DRV7783|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |Total: |6|$14.50| |

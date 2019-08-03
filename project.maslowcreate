@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 201,
-            "y": 154,
+            "x": 206,
+            "y": 144,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -149,8 +149,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 902,
-                    "y": 123,
+                    "x": 828,
+                    "y": 106,
                     "uniqueID": 500864,
                     "ioValues": [
                         {
@@ -166,6 +166,21 @@
                             "ioValue": 2
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 981,
+                    "y": 199,
+                    "uniqueID": 342515,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -196,8 +211,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 500864,
+                    "ap2ID": 342515
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 500864
+                    "ap1ID": 342515
                 }
             ],
             "fileTypeVersion": 1
@@ -687,8 +708,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 201,
-                    "y": 154,
+                    "x": 206,
+                    "y": 144,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
