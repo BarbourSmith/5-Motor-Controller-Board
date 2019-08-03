@@ -34,15 +34,9 @@ undefined
 undefined
 
 
-## Motor Plugs
-
-
-## Encoder Plugs
-
-
-## Power Plug
-
-
 ## Voltage Regulator
+
+
+## Plugs
 
 

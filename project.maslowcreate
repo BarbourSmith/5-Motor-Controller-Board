@@ -646,69 +646,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Motor Plugs",
-            "x": 125,
-            "y": 145,
-            "uniqueID": 712667,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Encoder Plugs",
-            "x": 124,
-            "y": 203,
-            "uniqueID": 527233,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Power Plug",
-            "x": 126,
-            "y": 261,
-            "uniqueID": 622327,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 265,
-            "y": 265,
+            "x": 132,
+            "y": 148,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -751,33 +691,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Motor Plugs",
-                    "x": 125,
-                    "y": 145,
-                    "uniqueID": 712667,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Encoder Plugs",
-                    "x": 124,
-                    "y": 203,
-                    "uniqueID": 527233,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Power Plug",
-                    "x": 126,
-                    "y": 261,
-                    "uniqueID": 622327,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 265,
-                    "y": 265,
+                    "x": 132,
+                    "y": 148,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
@@ -833,6 +749,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Plugs",
+            "x": 185,
+            "y": 217,
+            "uniqueID": 732073,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "5 Motor Controller Board",
             "x": 0,
             "y": 0,
@@ -862,6 +798,14 @@
                     "x": 183,
                     "y": 153,
                     "uniqueID": 682781,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Plugs",
+                    "x": 185,
+                    "y": 217,
+                    "uniqueID": 732073,
                     "ioValues": []
                 },
                 {
