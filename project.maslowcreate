@@ -1041,18 +1041,18 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 5.75
                         }
                     ]
                 },
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 336,
-                    "y": 123,
+                    "x": 340,
+                    "y": 122,
                     "uniqueID": 962646,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "5"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -1062,9 +1062,9 @@
                     "uniqueID": 800354,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
+                        "BOMitemName": "2 Place XH connector",
+                        "numberNeeded": 1,
+                        "costUSD": 0.1108,
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
