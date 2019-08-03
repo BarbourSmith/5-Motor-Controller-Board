@@ -523,7 +523,7 @@
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
             "x": 123,
-            "y": 89,
+            "y": 80,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
@@ -567,7 +567,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
@@ -591,15 +591,15 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 839,
+                    "x": 836,
                     "y": 116,
                     "uniqueID": 532250,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "TLC5947",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 2.82,
+                        "source": "https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742",
                         "totalNeeded": 0
                     }
                 },
@@ -725,7 +725,7 @@
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
                     "x": 123,
-                    "y": 89,
+                    "y": 80,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
@@ -767,6 +767,10 @@
                         {
                             "name": "3D shape 283090",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 425517",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -783,6 +787,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 670226",
                     "ap1ID": 264895,
+                    "ap2ID": 559386
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 283090",
+                    "ap1ID": 277038,
                     "ap2ID": 559386
                 },
                 {
