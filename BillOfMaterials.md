@@ -3,6 +3,6 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |PCBA Service|1|$4.00|https://macrofab.com/|
-|ESP32|1|$0.00|www.example.com|
+|ESP32|1|$4.15|https://www.aliexpress.com/item/32928267626.html|
 |DRV7783|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
-|Total: |7|$14.50| |
+|Total: |7|$18.65| |

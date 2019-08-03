@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 201,
-            "y": 64,
+            "x": 180,
+            "y": 44,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 206,
-            "y": 144,
+            "x": 182,
+            "y": 100,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -177,8 +177,8 @@
                     "BOMitem": {
                         "BOMitemName": "ESP32",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 4.15,
+                        "source": "https://www.aliexpress.com/item/32928267626.html",
                         "totalNeeded": 0
                     }
                 },
@@ -602,8 +602,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 214,
-            "y": 224,
+            "x": 185,
+            "y": 149,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -700,24 +700,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 201,
-                    "y": 64,
+                    "x": 180,
+                    "y": 44,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 206,
-                    "y": 144,
+                    "x": 182,
+                    "y": 100,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 214,
-                    "y": 224,
+                    "x": 185,
+                    "y": 149,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
