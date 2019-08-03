@@ -1009,8 +1009,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Connectors",
-            "x": 137,
-            "y": 135,
+            "x": 142,
+            "y": 137,
             "uniqueID": 532038,
             "ioValues": [],
             "topLevel": false,
@@ -1162,7 +1162,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -1342,8 +1342,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Connectors",
-                    "x": 137,
-                    "y": 135,
+                    "x": 142,
+                    "y": 137,
                     "uniqueID": 532038,
                     "ioValues": []
                 },
@@ -1356,6 +1356,27 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 610,
+                    "y": 122,
+                    "uniqueID": 937474,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 919753",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 247128",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 323746",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -1366,8 +1387,20 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 247128",
+                    "ap1ID": 152306,
+                    "ap2ID": 937474
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 919753",
+                    "ap1ID": 532038,
+                    "ap2ID": 937474
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 152306
+                    "ap1ID": 937474
                 }
             ],
             "fileTypeVersion": 1
