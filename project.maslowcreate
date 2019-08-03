@@ -1009,8 +1009,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Connectors",
-            "x": 129,
-            "y": 138,
+            "x": 142,
+            "y": 137,
             "uniqueID": 532038,
             "ioValues": [],
             "topLevel": false,
@@ -1028,9 +1028,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Power Plugs",
-            "x": 133,
-            "y": 201,
+            "name": "24 V Power Plug",
+            "x": 148,
+            "y": 207,
             "uniqueID": 459884,
             "ioValues": [],
             "topLevel": false,
@@ -1049,7 +1049,7 @@
         {
             "atomType": "Molecule",
             "name": "Plugs",
-            "x": 181,
+            "x": 170,
             "y": 213,
             "uniqueID": 732073,
             "ioValues": [],
@@ -1066,16 +1066,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Connectors",
-                    "x": 129,
-                    "y": 138,
+                    "x": 142,
+                    "y": 137,
                     "uniqueID": 532038,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Power Plugs",
-                    "x": 133,
-                    "y": 201,
+                    "name": "24 V Power Plug",
+                    "x": 148,
+                    "y": 207,
                     "uniqueID": 459884,
                     "ioValues": []
                 },
@@ -1132,7 +1132,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 181,
+                    "x": 170,
                     "y": 213,
                     "uniqueID": 732073,
                     "ioValues": []

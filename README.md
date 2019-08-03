@@ -49,6 +49,6 @@ undefined
 ## Motor Connectors
 
 
-## Power Plugs
+## 24 V Power Plug
 
 
