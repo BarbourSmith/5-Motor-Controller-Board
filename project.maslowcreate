@@ -80,8 +80,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 195,
-            "y": 164,
+            "x": 198,
+            "y": 162,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -194,8 +194,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 195,
-                    "y": 164,
+                    "x": 198,
+                    "y": 162,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
