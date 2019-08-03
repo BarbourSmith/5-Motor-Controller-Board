@@ -6,6 +6,7 @@
 |ESP32|1|$4.15|https://www.aliexpress.com/item/32928267626.html|
 |DRV7783|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |TLC5947|1|$2.82|https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742|
+|7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
 |2 Place XH connector|5|$0.55|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S2B-XH-A-LF-SN/455-2257-ND/1651055|
 |6 Place XH connector|4|$3.52|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
-|Total: |17|$25.54| |
+|Total: |18|$25.75| |
