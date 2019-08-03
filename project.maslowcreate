@@ -1099,11 +1099,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -10
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
@@ -1120,11 +1120,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -20
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": -20
                         },
                         {
                             "name": "zDist",
@@ -1141,11 +1141,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -1162,11 +1162,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
