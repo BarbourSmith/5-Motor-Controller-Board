@@ -243,6 +243,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Encoder Plugs",
+            "x": 138,
+            "y": 262,
+            "uniqueID": 527233,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Chips",
             "x": 195,
             "y": 253,
@@ -272,6 +292,14 @@
                     "x": 135,
                     "y": 194,
                     "uniqueID": 712667,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Encoder Plugs",
+                    "x": 138,
+                    "y": 262,
+                    "uniqueID": 527233,
                     "ioValues": []
                 },
                 {
