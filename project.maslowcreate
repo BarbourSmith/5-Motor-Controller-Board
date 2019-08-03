@@ -260,8 +260,8 @@
                     "BOMitem": {
                         "BOMitemName": "DRV7783",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 2.1,
+                        "source": "https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442",
                         "totalNeeded": 0
                     }
                 },
