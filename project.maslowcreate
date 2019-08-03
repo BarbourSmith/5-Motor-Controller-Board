@@ -184,8 +184,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Drivers",
-            "x": 144,
-            "y": 72,
+            "x": 126,
+            "y": 38,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -204,8 +204,8 @@
         {
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 139,
-            "y": 134,
+            "x": 126,
+            "y": 92,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
@@ -224,8 +224,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Plugs",
-            "x": 135,
-            "y": 194,
+            "x": 125,
+            "y": 145,
             "uniqueID": 712667,
             "ioValues": [],
             "topLevel": false,
@@ -244,9 +244,29 @@
         {
             "atomType": "Molecule",
             "name": "Encoder Plugs",
-            "x": 138,
-            "y": 262,
+            "x": 124,
+            "y": 203,
             "uniqueID": 527233,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Power Plug",
+            "x": 126,
+            "y": 261,
+            "uniqueID": 622327,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
@@ -273,33 +293,41 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
-                    "x": 144,
-                    "y": 72,
+                    "x": 126,
+                    "y": 38,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 139,
-                    "y": 134,
+                    "x": 126,
+                    "y": 92,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor Plugs",
-                    "x": 135,
-                    "y": 194,
+                    "x": 125,
+                    "y": 145,
                     "uniqueID": 712667,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Encoder Plugs",
-                    "x": 138,
-                    "y": 262,
+                    "x": 124,
+                    "y": 203,
                     "uniqueID": 527233,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Power Plug",
+                    "x": 126,
+                    "y": 261,
+                    "uniqueID": 622327,
                     "ioValues": []
                 },
                 {
