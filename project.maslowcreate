@@ -749,13 +749,127 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Encoder Connectors",
+            "x": 128,
+            "y": 94,
+            "uniqueID": 152306,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 175,
+                    "y": 75,
+                    "uniqueID": 421584,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 297,
+                    "y": 83,
+                    "uniqueID": 745274,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Motor Connectors",
+            "x": 129,
+            "y": 138,
+            "uniqueID": 532038,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Power Plugs",
+            "x": 133,
+            "y": 201,
+            "uniqueID": 459884,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Plugs",
-            "x": 185,
-            "y": 217,
+            "x": 181,
+            "y": 213,
             "uniqueID": 732073,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Encoder Connectors",
+                    "x": 128,
+                    "y": 94,
+                    "uniqueID": 152306,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Motor Connectors",
+                    "x": 129,
+                    "y": 138,
+                    "uniqueID": 532038,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Power Plugs",
+                    "x": 133,
+                    "y": 201,
+                    "uniqueID": 459884,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -803,8 +917,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 185,
-                    "y": 217,
+                    "x": 181,
+                    "y": 213,
                     "uniqueID": 732073,
                     "ioValues": []
                 },
