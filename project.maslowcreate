@@ -656,8 +656,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 165,
-                    "y": 161,
+                    "x": 127,
+                    "y": 122,
                     "uniqueID": 198925,
                     "ioValues": [
                         {
@@ -721,10 +721,10 @@
                     "uniqueID": 922305,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "BOMitemName": "7805 Voltage Regulator",
+                        "numberNeeded": 1,
+                        "costUSD": 0.21,
+                        "source": "https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331",
                         "totalNeeded": 0
                     }
                 },
