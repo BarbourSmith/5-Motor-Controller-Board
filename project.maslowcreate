@@ -1093,8 +1093,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 572,
-                    "y": 175,
+                    "x": 624,
+                    "y": 128,
                     "uniqueID": 238251,
                     "ioValues": [
                         {
@@ -1114,8 +1114,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 625,
-                    "y": 103,
+                    "x": 657,
+                    "y": 77,
                     "uniqueID": 400523,
                     "ioValues": [
                         {
@@ -1135,9 +1135,9 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 659,
-                    "y": 236,
-                    "uniqueID": 876874,
+                    "x": 662,
+                    "y": 190,
+                    "uniqueID": 495651,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -1156,9 +1156,9 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 708,
-                    "y": 155,
-                    "uniqueID": 495651,
+                    "x": 655,
+                    "y": 266,
+                    "uniqueID": 876874,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -1183,6 +1183,26 @@
                     "ioValues": [
                         {
                             "name": "3D shape 556173",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 523129",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 240488",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 706047",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 526499",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 239426",
                             "ioValue": 10
                         }
                     ]
@@ -1237,6 +1257,47 @@
                     "ap2Name": "geometry",
                     "ap1ID": 800354,
                     "ap2ID": 400523
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 800354,
+                    "ap2ID": 356266
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 526499",
+                    "ap1ID": 356266,
+                    "ap2ID": 296422
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 523129",
+                    "ap1ID": 238251,
+                    "ap2ID": 296422
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 706047",
+                    "ap1ID": 400523,
+                    "ap2ID": 296422
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 240488",
+                    "ap1ID": 495651,
+                    "ap2ID": 296422
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 556173",
+                    "ap1ID": 876874,
+                    "ap2ID": 296422
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 296422
                 }
             ],
             "fileTypeVersion": 1
