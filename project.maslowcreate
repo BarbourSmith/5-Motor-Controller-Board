@@ -59,7 +59,7 @@
                         "BOMitemName": "PCBA Service",
                         "numberNeeded": 1,
                         "costUSD": 4,
-                        "source": "www.example.com",
+                        "source": "https://macrofab.com/",
                         "totalNeeded": 0
                     }
                 },
@@ -206,7 +206,7 @@
             "atomType": "Molecule",
             "name": "Motor Drivers",
             "x": 125,
-            "y": 35,
+            "y": 33,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -581,8 +581,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 210,
-            "y": 230,
+            "x": 214,
+            "y": 224,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -591,7 +591,7 @@
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
                     "x": 125,
-                    "y": 35,
+                    "y": 33,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -695,8 +695,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 210,
-                    "y": 230,
+                    "x": 214,
+                    "y": 224,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
