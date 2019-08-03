@@ -232,8 +232,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 591,
-                    "y": 167,
+                    "x": 653,
+                    "y": 74,
                     "uniqueID": 230187,
                     "ioValues": [],
                     "BOMitem": {
@@ -247,8 +247,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 960,
-                    "y": 105,
+                    "x": 836,
+                    "y": 31,
                     "uniqueID": 520889,
                     "ioValues": [
                         {
@@ -262,6 +262,103 @@
                         {
                             "name": "zDist",
                             "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 840,
+                    "y": 87,
+                    "uniqueID": 529530,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 842,
+                    "y": 148,
+                    "uniqueID": 415719,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 854,
+                    "y": 204,
+                    "uniqueID": 713053,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 852,
+                    "y": 262,
+                    "uniqueID": 209397,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1065,
+                    "y": 186,
+                    "uniqueID": 775152,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 294700",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -290,9 +387,38 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 614155,
+                    "ap2ID": 230187
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 230187,
                     "ap2ID": 520889
                 },
-                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 230187,
+                    "ap2ID": 529530
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 230187,
+                    "ap2ID": 415719
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 230187,
+                    "ap2ID": 209397
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 230187,
+                    "ap2ID": 713053
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
