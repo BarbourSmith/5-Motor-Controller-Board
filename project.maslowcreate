@@ -80,8 +80,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 186,
-            "y": 165,
+            "x": 181,
+            "y": 159,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -134,7 +134,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -70
+                            "ioValue": -75
                         },
                         {
                             "name": "yDist",
@@ -184,12 +184,29 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 198,
-            "y": 250,
+            "x": 195,
+            "y": 253,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 207,
+                    "y": 95,
+                    "uniqueID": 346732,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -221,16 +238,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 186,
-                    "y": 165,
+                    "x": 181,
+                    "y": 159,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 198,
-                    "y": 250,
+                    "x": 195,
+                    "y": 253,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
