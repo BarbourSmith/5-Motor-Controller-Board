@@ -765,7 +765,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 7
+                            "ioValue": 17
                         },
                         {
                             "name": "y length",
@@ -776,8 +776,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 297,
-                    "y": 83,
+                    "x": 269,
+                    "y": 84,
                     "uniqueID": 745274,
                     "ioValues": [
                         {
@@ -793,7 +793,7 @@
                     "y": 83,
                     "uniqueID": 705429,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "4"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -805,7 +805,7 @@
                     "BOMitem": {
                         "BOMitemName": "6 Place XH connector",
                         "numberNeeded": 1,
-                        "costUSD": 0,
+                        "costUSD": 0.88,
                         "source": "https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066",
                         "totalNeeded": 0
                     }
