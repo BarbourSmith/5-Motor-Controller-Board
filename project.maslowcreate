@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 182,
-            "y": 100,
+            "x": 176,
+            "y": 106,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -701,11 +701,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -50
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -1540,8 +1540,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 182,
-                    "y": 100,
+                    "x": 176,
+                    "y": 106,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
