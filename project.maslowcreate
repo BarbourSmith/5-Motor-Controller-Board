@@ -1,0 +1,25 @@
+{
+    "molecules": [
+        {
+            "atomType": "Molecule",
+            "name": "5 Motor Controller Board",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 526866,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        }
+    ],
+    "circleSegmentSize": 2
+}
