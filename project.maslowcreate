@@ -1420,7 +1420,7 @@
         {
             "atomType": "Molecule",
             "name": "24 V Power Plug",
-            "x": 144,
+            "x": 141,
             "y": 207,
             "uniqueID": 459884,
             "ioValues": [],
@@ -1490,7 +1490,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5.5
+                            "ioValue": 7.5
                         }
                     ]
                 },
@@ -1568,8 +1568,8 @@
         {
             "atomType": "Molecule",
             "name": "Plugs",
-            "x": 178,
-            "y": 231,
+            "x": 176,
+            "y": 227,
             "uniqueID": 732073,
             "ioValues": [],
             "topLevel": false,
@@ -1593,7 +1593,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "24 V Power Plug",
-                    "x": 144,
+                    "x": 141,
                     "y": 207,
                     "uniqueID": 459884,
                     "ioValues": []
@@ -1694,8 +1694,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 178,
-                    "y": 231,
+                    "x": 176,
+                    "y": 227,
                     "uniqueID": 732073,
                     "ioValues": []
                 },
