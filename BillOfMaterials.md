@@ -10,3 +10,5 @@
 |2 Place XH connector|5|$0.55|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S2B-XH-A-LF-SN/455-2257-ND/1651055|
 |6 Place XH connector|4|$3.52|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
 |Total: |18|$25.75| |
+
+ 3xCOG MSRP: $77.26

@@ -647,8 +647,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 108,
-            "y": 158,
+            "x": 125,
+            "y": 147,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -772,8 +772,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 180,
-            "y": 155,
+            "x": 183,
+            "y": 166,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -797,8 +797,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 108,
-                    "y": 158,
+                    "x": 125,
+                    "y": 147,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
@@ -1440,8 +1440,8 @@
         {
             "atomType": "Molecule",
             "name": "Plugs",
-            "x": 185,
-            "y": 215,
+            "x": 178,
+            "y": 231,
             "uniqueID": 732073,
             "ioValues": [],
             "topLevel": false,
@@ -1548,16 +1548,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 180,
-                    "y": 155,
+                    "x": 183,
+                    "y": 166,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 185,
-                    "y": 215,
+                    "x": 178,
+                    "y": 231,
                     "uniqueID": 732073,
                     "ioValues": []
                 },
