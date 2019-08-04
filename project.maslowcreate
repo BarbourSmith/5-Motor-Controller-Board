@@ -1497,15 +1497,15 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 878,
-                    "y": 154,
+                    "x": 871,
+                    "y": 143,
                     "uniqueID": 688410,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "BOMitemName": "Power Plug",
+                        "numberNeeded": 1,
+                        "costUSD": 0.9,
+                        "source": "https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626",
                         "totalNeeded": 0
                     }
                 },
@@ -1516,7 +1516,7 @@
                     "y": 145,
                     "uniqueID": 572164,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Output",
@@ -1556,6 +1556,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 688410,
                     "ap2ID": 572164
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 572164
                 }
             ],
             "fileTypeVersion": 1
