@@ -9,6 +9,7 @@
 |7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
 |2 Place XH connector|5|$0.55|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S2B-XH-A-LF-SN/455-2257-ND/1651055|
 |6 Place XH connector|4|$3.52|https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
-|Total: |18|$25.75| |
+|Power Plug|1|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
+|Total: |19|$26.65| |
 
- 3xCOG MSRP: $77.26
+ 3xCOG MSRP: $79.96

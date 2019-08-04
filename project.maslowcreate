@@ -1421,7 +1421,7 @@
             "atomType": "Molecule",
             "name": "24 V Power Plug",
             "x": 144,
-            "y": 210,
+            "y": 207,
             "uniqueID": 459884,
             "ioValues": [],
             "topLevel": false,
@@ -1435,7 +1435,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -1482,15 +1482,15 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -20
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 5.5
                         }
                     ]
                 },
@@ -1594,7 +1594,7 @@
                     "atomType": "Molecule",
                     "name": "24 V Power Plug",
                     "x": 144,
-                    "y": 210,
+                    "y": 207,
                     "uniqueID": 459884,
                     "ioValues": []
                 },
@@ -1615,6 +1615,10 @@
                         },
                         {
                             "name": "3D shape 323746",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 320190",
                             "ioValue": 10
                         }
                     ]
@@ -1638,6 +1642,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 919753",
                     "ap1ID": 532038,
+                    "ap2ID": 937474
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 323746",
+                    "ap1ID": 459884,
                     "ap2ID": 937474
                 },
                 {
