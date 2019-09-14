@@ -882,7 +882,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -910,17 +910,13 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 300,
-                    "y": 132,
+                    "x": 284,
+                    "y": 257,
                     "uniqueID": 878069,
                     "ioValues": [
                         {
-                            "name": "y",
-                            "ioValue": 1
-                        },
-                        {
                             "name": "M",
-                            "ioValue": 1
+                            "ioValue": 30
                         }
                     ],
                     "currentEquation": "-1*M"
@@ -938,7 +934,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "zDist",
@@ -959,7 +955,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "zDist",
@@ -980,7 +976,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -1001,7 +997,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -1093,9 +1089,21 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "M",
+                    "ap1ID": 698176,
+                    "ap2ID": 878069
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "yDist",
                     "ap1ID": 698176,
-                    "ap2ID": 751042
+                    "ap2ID": 377530
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "yDist",
+                    "ap1ID": 698176,
+                    "ap2ID": 496080
                 },
                 {
                     "ap1Name": "geometry",
@@ -1108,6 +1116,18 @@
                     "ap2Name": "geometry",
                     "ap1ID": 264198,
                     "ap2ID": 496080
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 878069,
+                    "ap2ID": 751042
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 878069,
+                    "ap2ID": 805681
                 },
                 {
                     "ap1Name": "geometry",
@@ -1423,6 +1443,27 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 322,
+                    "y": 184,
+                    "uniqueID": 186968,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 623,
@@ -1430,12 +1471,8 @@
                     "uniqueID": 963382,
                     "ioValues": [
                         {
-                            "name": "3D shape 293672",
+                            "name": "3D shape 305054",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 820858",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 628723",
@@ -1455,6 +1492,10 @@
                         },
                         {
                             "name": "3D shape 293672",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 305054",
                             "ioValue": 10
                         }
                     ],
@@ -1489,14 +1530,20 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 820858",
+                    "ap2Name": "geometry",
                     "ap1ID": 121396,
-                    "ap2ID": 963382
+                    "ap2ID": 186968
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 260935",
                     "ap1ID": 732073,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 293672",
+                    "ap1ID": 186968,
                     "ap2ID": 963382
                 },
                 {
