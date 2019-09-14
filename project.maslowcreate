@@ -695,6 +695,169 @@
         },
         {
             "atomType": "Molecule",
+            "name": "One Motor Driver",
+            "x": 93,
+            "y": 99,
+            "uniqueID": 225763,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "DRV8873 H-Bridge",
+                    "x": 102,
+                    "y": 92,
+                    "uniqueID": 611552,
+                    "projectID": "208452334",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "JST XH 8 Place Right Angle",
+                    "x": 127,
+                    "y": 192,
+                    "uniqueID": 217932,
+                    "projectID": "208456510",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 276,
+                    "y": 69,
+                    "uniqueID": 960193,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 243,
+                    "y": 210,
+                    "uniqueID": 562717,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 355,
+                    "y": 161,
+                    "uniqueID": 204270,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 468,
+                    "y": 104,
+                    "uniqueID": 484033,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 517876",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 658097",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 836469",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 517876",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 611552,
+                    "ap2ID": 960193
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 217932,
+                    "ap2ID": 562717
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 836469",
+                    "ap1ID": 960193,
+                    "ap2ID": 484033
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 562717,
+                    "ap2ID": 204270
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 658097",
+                    "ap1ID": 204270,
+                    "ap2ID": 484033
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 484033
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
             "x": 92,
             "y": 233,
@@ -702,6 +865,14 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "One Motor Driver",
+                    "x": 93,
+                    "y": 99,
+                    "uniqueID": 225763,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
