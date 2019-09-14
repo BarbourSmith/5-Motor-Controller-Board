@@ -46,7 +46,7 @@
                     "y": 131,
                     "uniqueID": 167167,
                     "ioValues": [],
-                    "selectedColorIndex": "1"
+                    "selectedColorIndex": "6"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -233,49 +233,19 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 81,
-                    "y": 123,
-                    "uniqueID": 622018,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 7.8
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 5.6
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 300,
-                    "y": 75,
-                    "uniqueID": 266600,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 436,
-                    "y": 89,
-                    "uniqueID": 614155,
-                    "ioValues": [],
-                    "selectedColorIndex": "3"
+                    "atomType": "GitHubMolecule",
+                    "name": "DRV8873 H-Bridge",
+                    "x": 105,
+                    "y": 182,
+                    "uniqueID": 376644,
+                    "projectID": "208452334",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 588,
-                    "y": 113,
+                    "x": 382,
+                    "y": 165,
                     "uniqueID": 230187,
                     "ioValues": [],
                     "BOMitem": {
@@ -439,21 +409,9 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 622018,
-                    "ap2ID": 266600
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 266600,
-                    "ap2ID": 614155
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 614155,
+                    "ap1ID": 376644,
                     "ap2ID": 230187
                 },
                 {
@@ -1761,8 +1719,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1314,
-                    "y": 161,
+                    "x": 1316,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
