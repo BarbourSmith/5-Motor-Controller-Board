@@ -622,6 +622,10 @@
                     "uniqueID": 775152,
                     "ioValues": [
                         {
+                            "name": "3D shape 431871",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 294700",
                             "ioValue": 10
                         },
@@ -645,7 +649,8 @@
                             "name": "3D shape 431871",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1033,6 +1038,10 @@
                     "uniqueID": 559386,
                     "ioValues": [
                         {
+                            "name": "3D shape 372866",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 670226",
                             "ioValue": 10
                         },
@@ -1048,7 +1057,8 @@
                             "name": "3D shape 372866",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1261,6 +1271,10 @@
                     "uniqueID": 775152,
                     "ioValues": [
                         {
+                            "name": "3D shape 431871",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 294700",
                             "ioValue": 10
                         },
@@ -1284,7 +1298,8 @@
                             "name": "3D shape 431871",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1672,6 +1687,10 @@
                     "uniqueID": 559386,
                     "ioValues": [
                         {
+                            "name": "3D shape 372866",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 670226",
                             "ioValue": 10
                         },
@@ -1687,7 +1706,8 @@
                             "name": "3D shape 372866",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1879,6 +1899,10 @@
                     "uniqueID": 400130,
                     "ioValues": [
                         {
+                            "name": "3D shape 596987",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 671108",
                             "ioValue": 10
                         },
@@ -1898,7 +1922,8 @@
                             "name": "3D shape 596987",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -2159,6 +2184,10 @@
                     "uniqueID": 296422,
                     "ioValues": [
                         {
+                            "name": "3D shape 239426",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 556173",
                             "ioValue": 10
                         },
@@ -2182,7 +2211,8 @@
                             "name": "3D shape 239426",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -2468,6 +2498,10 @@
                     "uniqueID": 937474,
                     "ioValues": [
                         {
+                            "name": "3D shape 320190",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 919753",
                             "ioValue": 10
                         },
@@ -2483,7 +2517,8 @@
                             "name": "3D shape 320190",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -2675,6 +2710,10 @@
                     "uniqueID": 400130,
                     "ioValues": [
                         {
+                            "name": "3D shape 596987",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 671108",
                             "ioValue": 10
                         },
@@ -2694,7 +2733,8 @@
                             "name": "3D shape 596987",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -2955,6 +2995,10 @@
                     "uniqueID": 296422,
                     "ioValues": [
                         {
+                            "name": "3D shape 239426",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 556173",
                             "ioValue": 10
                         },
@@ -2978,7 +3022,8 @@
                             "name": "3D shape 239426",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -3264,6 +3309,10 @@
                     "uniqueID": 937474,
                     "ioValues": [
                         {
+                            "name": "3D shape 320190",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 919753",
                             "ioValue": 10
                         },
@@ -3279,7 +3328,8 @@
                             "name": "3D shape 320190",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -3397,6 +3447,10 @@
                     "uniqueID": 963382,
                     "ioValues": [
                         {
+                            "name": "3D shape 820858",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 628723",
                             "ioValue": 10
                         },
@@ -3416,7 +3470,8 @@
                             "name": "3D shape 820858",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Assembly",
@@ -3426,6 +3481,10 @@
                     "uniqueID": 963382,
                     "ioValues": [
                         {
+                            "name": "3D shape 820858",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 628723",
                             "ioValue": 10
                         },
@@ -3445,7 +3504,8 @@
                             "name": "3D shape 820858",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
