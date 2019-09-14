@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 181,
-            "y": 59,
+            "x": 67,
+            "y": 36,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 186,
-            "y": 116,
+            "x": 72,
+            "y": 82,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -225,268 +225,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Motor Drivers",
-            "x": 125,
-            "y": 33,
-            "uniqueID": 264895,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "DRV8873 H-Bridge",
-                    "x": 105,
-                    "y": 182,
-                    "uniqueID": 376644,
-                    "projectID": "208452334",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 382,
-                    "y": 165,
-                    "uniqueID": 230187,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "DRV7783",
-                        "numberNeeded": 1,
-                        "costUSD": 2.1,
-                        "source": "https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 836,
-                    "y": 31,
-                    "uniqueID": 520889,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 840,
-                    "y": 87,
-                    "uniqueID": 529530,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 80
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 842,
-                    "y": 148,
-                    "uniqueID": 415719,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 100
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 849,
-                    "y": 204,
-                    "uniqueID": 713053,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 120
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 852,
-                    "y": 262,
-                    "uniqueID": 209397,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 140
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 1117,
-                    "y": 152,
-                    "uniqueID": 775152,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 431871",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 431871",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 294700",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 393200",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 628896",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 201359",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 398561",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 376644,
-                    "ap2ID": 230187
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 230187,
-                    "ap2ID": 520889
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 230187,
-                    "ap2ID": 529530
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 230187,
-                    "ap2ID": 415719
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 230187,
-                    "ap2ID": 209397
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 230187,
-                    "ap2ID": 713053
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 398561",
-                    "ap1ID": 520889,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 201359",
-                    "ap1ID": 529530,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 628896",
-                    "ap1ID": 415719,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 393200",
-                    "ap1ID": 713053,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 294700",
-                    "ap1ID": 209397,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 775152
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 123,
-            "y": 80,
+            "x": 111,
+            "y": 44,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
@@ -610,8 +351,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 125,
-            "y": 147,
+            "x": 110,
+            "y": 89,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -734,35 +475,157 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Motor Drivers",
+            "x": 113,
+            "y": 144,
+            "uniqueID": 264895,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "DRV8873 H-Bridge",
+                    "x": 105,
+                    "y": 182,
+                    "uniqueID": 376644,
+                    "projectID": "208452334",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 697,
+                    "y": 158,
+                    "uniqueID": 520889,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1117,
+                    "y": 152,
+                    "uniqueID": 775152,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 431871",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 294700",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 393200",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 628896",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 201359",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 431871",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 294700",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 393200",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 628896",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 201359",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 398561",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 376644,
+                    "ap2ID": 520889
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 398561",
+                    "ap1ID": 520889,
+                    "ap2ID": 775152
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 775152
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Chips",
-            "x": 187,
-            "y": 184,
+            "x": 74,
+            "y": 132,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Motor Drivers",
-                    "x": 125,
-                    "y": 33,
-                    "uniqueID": 264895,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 123,
-                    "y": 80,
+                    "x": 111,
+                    "y": 44,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 125,
-                    "y": 147,
+                    "x": 110,
+                    "y": 89,
                     "uniqueID": 258403,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Motor Drivers",
+                    "x": 113,
+                    "y": 144,
+                    "uniqueID": 264895,
                     "ioValues": []
                 },
                 {
@@ -806,12 +669,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 670226",
-                    "ap1ID": 264895,
-                    "ap2ID": 559386
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 283090",
                     "ap1ID": 277038,
                     "ap2ID": 559386
@@ -823,11 +680,37 @@
                     "ap2ID": 559386
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 670226",
+                    "ap1ID": 264895,
+                    "ap2ID": 559386
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 559386
                 }
             ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Motor Driver Sub Assembly",
+            "x": 92,
+            "y": 233,
+            "uniqueID": 121396,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
@@ -1546,8 +1429,8 @@
         {
             "atomType": "Molecule",
             "name": "Plugs",
-            "x": 186,
-            "y": 248,
+            "x": 367,
+            "y": 30,
             "uniqueID": 732073,
             "ioValues": [],
             "topLevel": false,
@@ -1653,32 +1536,40 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 181,
-                    "y": 59,
+                    "x": 67,
+                    "y": 36,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 186,
-                    "y": 116,
+                    "x": 72,
+                    "y": 82,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 187,
-                    "y": 184,
+                    "x": 74,
+                    "y": 132,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
+                    "name": "Motor Driver Sub Assembly",
+                    "x": 92,
+                    "y": 233,
+                    "uniqueID": 121396,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
                     "name": "Plugs",
-                    "x": 186,
-                    "y": 248,
+                    "x": 367,
+                    "y": 30,
                     "uniqueID": 732073,
                     "ioValues": []
                 },

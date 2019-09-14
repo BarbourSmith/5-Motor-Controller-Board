@@ -22,6 +22,18 @@ undefined
 ## Chips
 
 
+## SPI Motor Controller
+
+
+undefined
+
+
+## Voltage Regulator
+
+
+undefined
+
+
 ## Motor Drivers
 
 
@@ -37,16 +49,7 @@ undefined
 undefined
 
 
-## SPI Motor Controller
-
-
-undefined
-
-
-## Voltage Regulator
-
-
-undefined
+## Motor Driver Sub Assembly
 
 
 ## Plugs
