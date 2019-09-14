@@ -859,8 +859,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
-            "x": 92,
-            "y": 233,
+            "x": 73,
+            "y": 191,
             "uniqueID": 121396,
             "ioValues": [],
             "topLevel": false,
@@ -1345,8 +1345,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Driver Sub Assembly",
-                    "x": 92,
-                    "y": 233,
+                    "x": 73,
+                    "y": 191,
                     "uniqueID": 121396,
                     "ioValues": []
                 },
