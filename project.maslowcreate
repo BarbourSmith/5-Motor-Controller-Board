@@ -795,15 +795,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 517876",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 658097",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 836469",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 517876",
                             "ioValue": 10
                         }
                     ],
@@ -1017,6 +1017,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 109811",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 924653",
                             "ioValue": 10
                         },
@@ -1030,10 +1034,6 @@
                         },
                         {
                             "name": "3D shape 577925",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 109811",
                             "ioValue": 10
                         }
                     ],
@@ -1169,45 +1169,28 @@
         },
         {
             "atomType": "Molecule",
-            "name": "24 V Power Plug",
-            "x": 124,
-            "y": 74,
-            "uniqueID": 459884,
+            "name": "Power Jack",
+            "x": 297,
+            "y": 286,
+            "uniqueID": 487182,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 185,
-                    "y": 169,
-                    "uniqueID": 856901,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 11
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 357,
-                    "y": 167,
-                    "uniqueID": 132130,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Power Plug",
+                    "x": 114,
+                    "y": 90,
+                    "uniqueID": 868899,
+                    "projectID": "208462291",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 500,
-                    "y": 168,
-                    "uniqueID": 607415,
+                    "x": 296,
+                    "y": 122,
+                    "uniqueID": 736164,
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
@@ -1215,160 +1198,34 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 0
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -90
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 654,
-                    "y": 151,
-                    "uniqueID": 189692,
+                    "x": 530,
+                    "y": 138,
+                    "uniqueID": 920624,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -80
+                            "ioValue": -70
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -20
+                            "ioValue": -40
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7.5
+                            "ioValue": 2
                         }
                     ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 871,
-                    "y": 143,
-                    "uniqueID": 688410,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Power Plug",
-                        "numberNeeded": 1,
-                        "costUSD": 0.9,
-                        "source": "https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 1094,
-                    "y": 145,
-                    "uniqueID": 572164,
-                    "ioValues": [],
-                    "selectedColorIndex": "3"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 856901,
-                    "ap2ID": 132130
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 132130,
-                    "ap2ID": 607415
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 607415,
-                    "ap2ID": 189692
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 189692,
-                    "ap2ID": 688410
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 688410,
-                    "ap2ID": 572164
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 572164
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Plugs",
-            "x": 367,
-            "y": 30,
-            "uniqueID": 732073,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Molecule",
-                    "name": "24 V Power Plug",
-                    "x": 124,
-                    "y": 74,
-                    "uniqueID": 459884,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 610,
-                    "y": 122,
-                    "uniqueID": 937474,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 320190",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 919753",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 247128",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 320190",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 919753",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 247128",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 323746",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1381,14 +1238,20 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 323746",
-                    "ap1ID": 459884,
-                    "ap2ID": 937474
+                    "ap2Name": "geometry",
+                    "ap1ID": 868899,
+                    "ap2ID": 736164
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 736164,
+                    "ap2ID": 920624
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 937474
+                    "ap1ID": 920624
                 }
             ],
             "fileTypeVersion": 1
@@ -1435,14 +1298,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Plugs",
-                    "x": 367,
-                    "y": 30,
-                    "uniqueID": 732073,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 322,
@@ -1464,6 +1319,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Power Jack",
+                    "x": 297,
+                    "y": 286,
+                    "uniqueID": 487182,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 623,
@@ -1471,8 +1334,12 @@
                     "uniqueID": 963382,
                     "ioValues": [
                         {
-                            "name": "3D shape 305054",
+                            "name": "3D shape 966998",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 305054",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 628723",
@@ -1487,15 +1354,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 260935",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 293672",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 305054",
+                            "name": "3D shape 966998",
                             "ioValue": 10
                         }
                     ],
@@ -1535,15 +1398,15 @@
                     "ap2ID": 186968
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 260935",
-                    "ap1ID": 732073,
-                    "ap2ID": 963382
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 293672",
                     "ap1ID": 186968,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 305054",
+                    "ap1ID": 487182,
                     "ap2ID": 963382
                 },
                 {
