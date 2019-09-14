@@ -2558,8 +2558,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder Connectors",
-            "x": 137,
-            "y": 70,
+            "x": 112,
+            "y": 49,
             "uniqueID": 152306,
             "ioValues": [],
             "topLevel": false,
@@ -2822,8 +2822,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Connectors",
-            "x": 142,
-            "y": 137,
+            "x": 119,
+            "y": 120,
             "uniqueID": 532038,
             "ioValues": [],
             "topLevel": false,
@@ -3123,8 +3123,8 @@
         {
             "atomType": "Molecule",
             "name": "24 V Power Plug",
-            "x": 141,
-            "y": 207,
+            "x": 116,
+            "y": 189,
             "uniqueID": 459884,
             "ioValues": [],
             "topLevel": false,
@@ -3280,24 +3280,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder Connectors",
-                    "x": 137,
-                    "y": 70,
+                    "x": 112,
+                    "y": 49,
                     "uniqueID": 152306,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor Connectors",
-                    "x": 142,
-                    "y": 137,
+                    "x": 119,
+                    "y": 120,
                     "uniqueID": 532038,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "24 V Power Plug",
-                    "x": 141,
-                    "y": 207,
+                    "x": 116,
+                    "y": 189,
                     "uniqueID": 459884,
                     "ioValues": []
                 },
