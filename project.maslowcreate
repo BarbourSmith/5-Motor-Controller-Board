@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 63,
-            "y": 86,
+            "x": 61,
+            "y": 92,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -110,17 +110,26 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "ESP32",
-                    "x": 124,
-                    "y": 158,
+                    "x": 78,
+                    "y": 83,
                     "uniqueID": 899551,
                     "projectID": "208553062",
                     "ioValues": []
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "SMD Female Header",
+                    "x": 95,
+                    "y": 229,
+                    "uniqueID": 178731,
+                    "projectID": "208562613",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 317,
-                    "y": 167,
+                    "x": 359,
+                    "y": 62,
                     "uniqueID": 844315,
                     "ioValues": [
                         {
@@ -140,8 +149,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 574,
-                    "y": 173,
+                    "x": 656,
+                    "y": 63,
                     "uniqueID": 436017,
                     "ioValues": [
                         {
@@ -1308,8 +1317,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 63,
-                    "y": 86,
+                    "x": 61,
+                    "y": 92,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
