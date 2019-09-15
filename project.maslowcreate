@@ -1435,8 +1435,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 199,
-                    "y": 101,
+                    "x": 196,
+                    "y": 109,
                     "uniqueID": 450577,
                     "ioValues": [
                         {
@@ -1449,7 +1449,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 14
+                            "ioValue": 13
                         }
                     ]
                 },
