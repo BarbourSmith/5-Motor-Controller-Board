@@ -61,7 +61,7 @@ undefined
 undefined
 
 
-## Motor Drivers
+## Z-axis Motor Driver
 
 
 ## JST XH 8 Place Right Angle

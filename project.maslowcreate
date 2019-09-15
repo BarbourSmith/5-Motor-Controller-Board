@@ -221,6 +221,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 158820",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 817506",
                             "ioValue": 10
                         },
@@ -230,10 +234,6 @@
                         },
                         {
                             "name": "3D shape 599875",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 158820",
                             "ioValue": 10
                         }
                     ],
@@ -301,8 +301,8 @@
         {
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 100,
-            "y": 25,
+            "x": 105,
+            "y": 37,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
@@ -426,8 +426,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 98,
-            "y": 86,
+            "x": 90,
+            "y": 112,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -474,17 +474,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 598,
-                    "y": 195,
+                    "x": 596,
+                    "y": 206,
                     "uniqueID": 285349,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -35
+                            "ioValue": -30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 19
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -550,9 +550,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Motor Drivers",
-            "x": 111,
-            "y": 156,
+            "name": "Z-axis Motor Driver",
+            "x": 94,
+            "y": 192,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -714,8 +714,8 @@
         {
             "atomType": "Molecule",
             "name": "Misc Chips",
-            "x": 64,
-            "y": 159,
+            "x": 60,
+            "y": 162,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -723,24 +723,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 100,
-                    "y": 25,
+                    "x": 105,
+                    "y": 37,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 98,
-                    "y": 86,
+                    "x": 90,
+                    "y": 112,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Motor Drivers",
-                    "x": 111,
-                    "y": 156,
+                    "name": "Z-axis Motor Driver",
+                    "x": 94,
+                    "y": 192,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -1313,7 +1313,7 @@
         {
             "atomType": "Molecule",
             "name": "Power Jack",
-            "x": 295,
+            "x": 315,
             "y": 278,
             "uniqueID": 487182,
             "ioValues": [],
@@ -1427,8 +1427,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Misc Chips",
-                    "x": 64,
-                    "y": 159,
+                    "x": 60,
+                    "y": 162,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
@@ -1485,7 +1485,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Power Jack",
-                    "x": 295,
+                    "x": 315,
                     "y": 278,
                     "uniqueID": 487182,
                     "ioValues": []
