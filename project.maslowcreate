@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 70,
-            "y": 33,
+            "x": 58,
+            "y": 40,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -101,87 +101,12 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 70,
-            "y": 79,
+            "x": 61,
+            "y": 88,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 163,
-                    "y": 142,
-                    "uniqueID": 157447,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 50
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 28
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 383,
-                    "y": 110,
-                    "uniqueID": 324918,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 579,
-                    "y": 89,
-                    "uniqueID": 766749,
-                    "ioValues": [],
-                    "selectedColorIndex": "3"
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 831,
-                    "y": 114,
-                    "uniqueID": 500864,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -17
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 1061,
-                    "y": 135,
-                    "uniqueID": 342515,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "ESP32",
-                        "numberNeeded": 1,
-                        "costUSD": 4.15,
-                        "source": "https://www.aliexpress.com/item/32928267626.html",
-                        "totalNeeded": 0
-                    }
-                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -190,37 +115,7 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 157447,
-                    "ap2ID": 324918
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 324918,
-                    "ap2ID": 766749
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 766749,
-                    "ap2ID": 500864
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 500864,
-                    "ap2ID": 342515
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 342515
-                }
-            ],
+            "allConnectors": [],
             "fileTypeVersion": 1
         },
         {
@@ -351,8 +246,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 104,
-            "y": 89,
+            "x": 98,
+            "y": 86,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -399,8 +294,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 594,
-                    "y": 193,
+                    "x": 598,
+                    "y": 195,
                     "uniqueID": 285349,
                     "ioValues": [
                         {
@@ -409,7 +304,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -19
+                            "ioValue": 19
                         },
                         {
                             "name": "zDist",
@@ -476,8 +371,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Drivers",
-            "x": 113,
-            "y": 152,
+            "x": 111,
+            "y": 156,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -554,15 +449,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 115576",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 783760",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 385209",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 115576",
                             "ioValue": 10
                         }
                     ],
@@ -638,9 +533,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Chips",
-            "x": 65,
-            "y": 128,
+            "name": "Misc Chips",
+            "x": 62,
+            "y": 157,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -656,16 +551,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 104,
-                    "y": 89,
+                    "x": 98,
+                    "y": 86,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
-                    "x": 113,
-                    "y": 152,
+                    "x": 111,
+                    "y": 156,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -702,11 +597,11 @@
                             "ioValue": ""
                         },
                         {
-                            "name": "3D shape 372866",
+                            "name": "3D shape 670226",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 670226",
+                            "name": "3D shape 372866",
                             "ioValue": 10
                         },
                         {
@@ -927,8 +822,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
-            "x": 73,
-            "y": 191,
+            "x": 71,
+            "y": 231,
             "uniqueID": 121396,
             "ioValues": [],
             "topLevel": false,
@@ -1238,8 +1133,8 @@
         {
             "atomType": "Molecule",
             "name": "Power Jack",
-            "x": 301,
-            "y": 280,
+            "x": 295,
+            "y": 278,
             "uniqueID": 487182,
             "ioValues": [],
             "topLevel": false,
@@ -1256,7 +1151,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 296,
+                    "x": 291,
                     "y": 122,
                     "uniqueID": 736164,
                     "ioValues": [
@@ -1270,15 +1165,15 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -90
+                            "ioValue": 90
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 529,
-                    "y": 135,
+                    "x": 535,
+                    "y": 140,
                     "uniqueID": 920624,
                     "ioValues": [
                         {
@@ -1287,7 +1182,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -31
+                            "ioValue": 31
                         },
                         {
                             "name": "zDist",
@@ -1336,32 +1231,32 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 70,
-                    "y": 33,
+                    "x": 58,
+                    "y": 40,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 70,
-                    "y": 79,
+                    "x": 61,
+                    "y": 88,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Chips",
-                    "x": 65,
-                    "y": 128,
+                    "name": "Misc Chips",
+                    "x": 62,
+                    "y": 157,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motor Driver Sub Assembly",
-                    "x": 73,
-                    "y": 191,
+                    "x": 71,
+                    "y": 231,
                     "uniqueID": 121396,
                     "ioValues": []
                 },
@@ -1389,8 +1284,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Power Jack",
-                    "x": 301,
-                    "y": 280,
+                    "x": 295,
+                    "y": 278,
                     "uniqueID": 487182,
                     "ioValues": []
                 },

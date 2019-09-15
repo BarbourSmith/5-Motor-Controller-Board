@@ -16,10 +16,7 @@ undefined
 ## ESP32
 
 
-undefined
-
-
-## Chips
+## Misc Chips
 
 
 ## SPI Motor Controller
