@@ -190,8 +190,8 @@
         {
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 102,
-            "y": 31,
+            "x": 100,
+            "y": 25,
             "uniqueID": 277038,
             "ioValues": [],
             "topLevel": false,
@@ -230,12 +230,12 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 506,
-                    "y": 116,
+                    "y": 112,
                     "uniqueID": 785050,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 6
                         },
                         {
                             "name": "yDist",
@@ -603,8 +603,8 @@
         {
             "atomType": "Molecule",
             "name": "Misc Chips",
-            "x": 62,
-            "y": 157,
+            "x": 64,
+            "y": 159,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -612,8 +612,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 102,
-                    "y": 31,
+                    "x": 100,
+                    "y": 25,
                     "uniqueID": 277038,
                     "ioValues": []
                 },
@@ -1316,8 +1316,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Misc Chips",
-                    "x": 62,
-                    "y": 157,
+                    "x": 64,
+                    "y": 159,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
@@ -1391,6 +1391,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 416631",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 966998",
                             "ioValue": 10
                         },
@@ -1400,10 +1404,6 @@
                         },
                         {
                             "name": "3D shape 628723",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 416631",
                             "ioValue": 10
                         },
                         {
