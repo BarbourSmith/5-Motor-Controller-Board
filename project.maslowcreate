@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 65,
-            "y": 28,
+            "x": 62,
+            "y": 35,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -12,13 +12,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 200,
-                    "y": 111,
+                    "x": 197,
+                    "y": 110,
                     "uniqueID": 921444,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 90
+                            "ioValue": 85
                         },
                         {
                             "name": "y length",
@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 69,
-            "y": 77,
+            "x": 70,
+            "y": 79,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -149,13 +149,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 833,
-                    "y": 111,
+                    "x": 831,
+                    "y": 114,
                     "uniqueID": 500864,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": -17
                         },
                         {
                             "name": "yDist",
@@ -476,8 +476,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Drivers",
-            "x": 104,
-            "y": 142,
+            "x": 113,
+            "y": 152,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -513,60 +513,6 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 1117,
-                    "y": 152,
-                    "uniqueID": 775152,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 431871",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 294700",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 393200",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 628896",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 201359",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 431871",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 294700",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 393200",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 628896",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 201359",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 398561",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -583,14 +529,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 398561",
-                    "ap1ID": 520889,
-                    "ap2ID": 775152
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 775152
+                    "ap1ID": 520889
                 }
             ],
             "fileTypeVersion": 1
@@ -598,8 +538,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 73,
-            "y": 129,
+            "x": 74,
+            "y": 126,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -623,8 +563,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
-                    "x": 104,
-                    "y": 142,
+                    "x": 113,
+                    "y": 152,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -1268,24 +1208,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 65,
-                    "y": 28,
+                    "x": 62,
+                    "y": 35,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 69,
-                    "y": 77,
+                    "x": 70,
+                    "y": 79,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 73,
-                    "y": 129,
+                    "x": 74,
+                    "y": 126,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
