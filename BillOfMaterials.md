@@ -4,11 +4,11 @@
  |----|----------|-----|-----|
 |PCBA Service|1|$4.00|https://macrofab.com/|
 |JST XH 8 Place Connector|5|$0.49|https://www.aliexpress.com/item/32868570445.html|
-|ESP32|1|$4.15|https://www.aliexpress.com/item/32928267626.html|
+|ESP32|1|$4.40|https://www.aliexpress.com/item/32928267626.html|
 |Power Plug|1|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
 |7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
 |DRV7783|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |TLC5947|1|$2.82|https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742|
-|Total: |15|$23.07| |
+|Total: |15|$23.32| |
 
- 3xCOG MSRP: $69.21
+ 3xCOG MSRP: $69.96

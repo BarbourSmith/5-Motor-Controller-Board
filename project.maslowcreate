@@ -101,12 +101,63 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 61,
-            "y": 88,
+            "x": 63,
+            "y": 86,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "ESP32",
+                    "x": 124,
+                    "y": 158,
+                    "uniqueID": 899551,
+                    "projectID": "208553062",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 317,
+                    "y": 167,
+                    "uniqueID": 844315,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": -180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 574,
+                    "y": 173,
+                    "uniqueID": 436017,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -115,7 +166,25 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 899551,
+                    "ap2ID": 844315
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 844315,
+                    "ap2ID": 436017
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 436017
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -1239,8 +1308,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 61,
-                    "y": 88,
+                    "x": 63,
+                    "y": 86,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
@@ -1251,6 +1320,27 @@
                     "y": 157,
                     "uniqueID": 682781,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 217,
+                    "y": 91,
+                    "uniqueID": 450577,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -1292,12 +1382,12 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 623,
-                    "y": 102,
+                    "x": 620,
+                    "y": 103,
                     "uniqueID": 963382,
                     "ioValues": [
                         {
-                            "name": "3D shape 966998",
+                            "name": "3D shape 416631",
                             "ioValue": ""
                         },
                         {
@@ -1344,14 +1434,20 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 416631",
+                    "ap2Name": "geometry",
                     "ap1ID": 491176,
-                    "ap2ID": 963382
+                    "ap2ID": 450577
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 374430",
                     "ap1ID": 682781,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 966998",
+                    "ap1ID": 450577,
                     "ap2ID": 963382
                 },
                 {
