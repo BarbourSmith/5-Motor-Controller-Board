@@ -351,8 +351,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 112,
-            "y": 85,
+            "x": 104,
+            "y": 89,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -399,13 +399,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 595,
-                    "y": 191,
+                    "x": 594,
+                    "y": 193,
                     "uniqueID": 285349,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -42
+                            "ioValue": -35
                         },
                         {
                             "name": "yDist",
@@ -640,7 +640,7 @@
             "atomType": "Molecule",
             "name": "Chips",
             "x": 65,
-            "y": 135,
+            "y": 128,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -656,8 +656,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 112,
-                    "y": 85,
+                    "x": 104,
+                    "y": 89,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
@@ -1353,7 +1353,7 @@
                     "atomType": "Molecule",
                     "name": "Chips",
                     "x": 65,
-                    "y": 135,
+                    "y": 128,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
