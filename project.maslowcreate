@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 62,
-            "y": 35,
+            "x": 70,
+            "y": 33,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -226,7 +226,7 @@
         {
             "atomType": "Molecule",
             "name": "SPI Motor Controller",
-            "x": 111,
+            "x": 109,
             "y": 44,
             "uniqueID": 277038,
             "ioValues": [],
@@ -265,17 +265,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 501,
-                    "y": 114,
+                    "x": 498,
+                    "y": 110,
                     "uniqueID": 785050,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 100
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 30
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -351,8 +351,8 @@
         {
             "atomType": "Molecule",
             "name": "Voltage Regulator",
-            "x": 110,
-            "y": 89,
+            "x": 108,
+            "y": 93,
             "uniqueID": 258403,
             "ioValues": [],
             "topLevel": false,
@@ -399,13 +399,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 600,
-                    "y": 182,
+                    "x": 598,
+                    "y": 187,
                     "uniqueID": 285349,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -55
+                            "ioValue": -45
                         },
                         {
                             "name": "yDist",
@@ -639,8 +639,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 71,
-            "y": 124,
+            "x": 68,
+            "y": 135,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -648,7 +648,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "SPI Motor Controller",
-                    "x": 111,
+                    "x": 109,
                     "y": 44,
                     "uniqueID": 277038,
                     "ioValues": []
@@ -656,8 +656,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Voltage Regulator",
-                    "x": 110,
-                    "y": 89,
+                    "x": 108,
+                    "y": 93,
                     "uniqueID": 258403,
                     "ioValues": []
                 },
@@ -1336,8 +1336,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 62,
-                    "y": 35,
+                    "x": 70,
+                    "y": 33,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
@@ -1352,8 +1352,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 71,
-                    "y": 124,
+                    "x": 68,
+                    "y": 135,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
