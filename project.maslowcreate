@@ -484,9 +484,18 @@
             "allAtoms": [
                 {
                     "atomType": "GitHubMolecule",
+                    "name": "JST XH 8 Place Right Angle",
+                    "x": 98,
+                    "y": 88,
+                    "uniqueID": 179737,
+                    "projectID": "208456510",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
                     "name": "DRV8873 H-Bridge",
-                    "x": 105,
-                    "y": 182,
+                    "x": 103,
+                    "y": 163,
                     "uniqueID": 376644,
                     "projectID": "208452334",
                     "ioValues": []
@@ -494,13 +503,34 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 697,
-                    "y": 169,
+                    "x": 264,
+                    "y": 78,
+                    "uniqueID": 748824,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 233,
+                    "y": 203,
                     "uniqueID": 520889,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 30
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -509,6 +539,53 @@
                         {
                             "name": "zDist",
                             "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 407,
+                    "y": 144,
+                    "uniqueID": 541299,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 115576",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 783760",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 385209",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 115576",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 582,
+                    "y": 196,
+                    "uniqueID": 442550,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -524,13 +601,32 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 179737,
+                    "ap2ID": 748824
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 376644,
                     "ap2ID": 520889
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 520889
+                    "ap2Name": "3D shape 385209",
+                    "ap1ID": 748824,
+                    "ap2ID": 541299
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 783760",
+                    "ap1ID": 520889,
+                    "ap2ID": 541299
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 541299,
+                    "ap2ID": 442550
                 }
             ],
             "fileTypeVersion": 1
