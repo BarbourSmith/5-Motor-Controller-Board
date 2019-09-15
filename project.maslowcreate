@@ -119,7 +119,7 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "SMD Female Header",
-                    "x": 95,
+                    "x": 89,
                     "y": 229,
                     "uniqueID": 178731,
                     "projectID": "208562613",
@@ -128,8 +128,29 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 359,
-                    "y": 62,
+                    "x": 209,
+                    "y": 236,
+                    "uniqueID": 111661,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 355,
+                    "y": 68,
                     "uniqueID": 844315,
                     "ioValues": [
                         {
@@ -149,9 +170,30 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 656,
-                    "y": 63,
-                    "uniqueID": 436017,
+                    "x": 329,
+                    "y": 160,
+                    "uniqueID": 761470,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -9
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 337,
+                    "y": 263,
+                    "uniqueID": 771968,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -166,6 +208,36 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 624,
+                    "y": 143,
+                    "uniqueID": 900775,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 158820",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 817506",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 924803",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 599875",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 158820",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -183,15 +255,45 @@
                     "ap2ID": 844315
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 178731,
+                    "ap2ID": 111661
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 111661,
+                    "ap2ID": 761470
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 111661,
+                    "ap2ID": 771968
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 817506",
                     "ap1ID": 844315,
-                    "ap2ID": 436017
+                    "ap2ID": 900775
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 599875",
+                    "ap1ID": 761470,
+                    "ap2ID": 900775
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 924803",
+                    "ap1ID": 771968,
+                    "ap2ID": 900775
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 436017
+                    "ap1ID": 900775
                 }
             ],
             "fileTypeVersion": 1
