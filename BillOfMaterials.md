@@ -7,7 +7,7 @@
 |ESP32|1|$4.40|https://www.aliexpress.com/item/32928267626.html|
 |Power Plug|1|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
 |7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
-|DRV7783|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
+|DRV8873|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |TLC5947|1|$2.82|https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742|
 |19 Place Female Header|2|$1.90|www.example.com|
 |Total: |17|$25.22| |
