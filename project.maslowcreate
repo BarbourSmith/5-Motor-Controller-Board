@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 67,
-            "y": 36,
+            "x": 65,
+            "y": 28,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -12,13 +12,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 211,
-                    "y": 106,
+                    "x": 200,
+                    "y": 111,
                     "uniqueID": 921444,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 200
+                            "ioValue": 90
                         },
                         {
                             "name": "y length",
@@ -101,8 +101,8 @@
         {
             "atomType": "Molecule",
             "name": "ESP32",
-            "x": 72,
-            "y": 82,
+            "x": 69,
+            "y": 77,
             "uniqueID": 491176,
             "ioValues": [],
             "topLevel": false,
@@ -149,13 +149,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 828,
-                    "y": 106,
+                    "x": 833,
+                    "y": 111,
                     "uniqueID": 500864,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -75
+                            "ioValue": -15
                         },
                         {
                             "name": "yDist",
@@ -1268,16 +1268,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 67,
-                    "y": 36,
+                    "x": 65,
+                    "y": 28,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "ESP32",
-                    "x": 72,
-                    "y": 82,
+                    "x": 69,
+                    "y": 77,
                     "uniqueID": 491176,
                     "ioValues": []
                 },
