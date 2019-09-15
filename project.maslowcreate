@@ -476,8 +476,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Drivers",
-            "x": 113,
-            "y": 144,
+            "x": 104,
+            "y": 142,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -495,12 +495,12 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 697,
-                    "y": 158,
+                    "y": 169,
                     "uniqueID": 520889,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -30
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
@@ -598,8 +598,8 @@
         {
             "atomType": "Molecule",
             "name": "Chips",
-            "x": 74,
-            "y": 132,
+            "x": 73,
+            "y": 129,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -623,8 +623,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Drivers",
-                    "x": 113,
-                    "y": 144,
+                    "x": 104,
+                    "y": 142,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -1170,8 +1170,8 @@
         {
             "atomType": "Molecule",
             "name": "Power Jack",
-            "x": 297,
-            "y": 286,
+            "x": 301,
+            "y": 280,
             "uniqueID": 487182,
             "ioValues": [],
             "topLevel": false,
@@ -1209,13 +1209,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 531,
-                    "y": 142,
+                    "x": 529,
+                    "y": 135,
                     "uniqueID": 920624,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -93
+                            "ioValue": -35
                         },
                         {
                             "name": "yDist",
@@ -1284,8 +1284,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Chips",
-                    "x": 74,
-                    "y": 132,
+                    "x": 73,
+                    "y": 129,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
@@ -1300,13 +1300,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 322,
-                    "y": 184,
+                    "x": 325,
+                    "y": 189,
                     "uniqueID": 186968,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -58
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -1321,8 +1321,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Power Jack",
-                    "x": 297,
-                    "y": 286,
+                    "x": 301,
+                    "y": 280,
                     "uniqueID": 487182,
                     "ioValues": []
                 },
@@ -1336,6 +1336,10 @@
                         {
                             "name": "3D shape 966998",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 966998",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 305054",
@@ -1355,10 +1359,6 @@
                         },
                         {
                             "name": "3D shape 293672",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 966998",
                             "ioValue": 10
                         }
                     ],
