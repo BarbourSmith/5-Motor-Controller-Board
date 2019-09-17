@@ -9,7 +9,7 @@
 |7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
 |DRV8873|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |TLC5947|1|$2.82|https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742|
-|15 Place Female Header|2|$1.90|www.example.com|
-|Total: |17|$25.22| |
+|15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
+|Total: |17|$24.51| |
 
- 3xCOG MSRP: $75.66
+ 3xCOG MSRP: $73.52
