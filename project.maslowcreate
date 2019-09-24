@@ -551,8 +551,8 @@
         {
             "atomType": "Molecule",
             "name": "Z-axis Motor Driver",
-            "x": 94,
-            "y": 192,
+            "x": 95,
+            "y": 195,
             "uniqueID": 264895,
             "ioValues": [],
             "topLevel": false,
@@ -560,8 +560,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "JST XH 8 Place Right Angle",
-                    "x": 98,
-                    "y": 88,
+                    "x": 85,
+                    "y": 52,
                     "uniqueID": 179737,
                     "projectID": "208456510",
                     "ioValues": []
@@ -569,8 +569,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "DRV8873 H-Bridge",
-                    "x": 103,
-                    "y": 163,
+                    "x": 100,
+                    "y": 244,
                     "uniqueID": 376644,
                     "projectID": "208452334",
                     "ioValues": []
@@ -597,10 +597,31 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 266,
+                    "y": 246,
+                    "uniqueID": 896803,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 233,
-                    "y": 203,
+                    "x": 411,
+                    "y": 222,
                     "uniqueID": 520889,
                     "ioValues": [
                         {
@@ -620,8 +641,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 407,
-                    "y": 144,
+                    "x": 492,
+                    "y": 138,
                     "uniqueID": 541299,
                     "ioValues": [
                         {
@@ -646,8 +667,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 582,
-                    "y": 196,
+                    "x": 781,
+                    "y": 134,
                     "uniqueID": 442550,
                     "ioValues": [
                         {
@@ -683,13 +704,19 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 376644,
-                    "ap2ID": 520889
+                    "ap2ID": 896803
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 385209",
                     "ap1ID": 748824,
                     "ap2ID": 541299
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 896803,
+                    "ap2ID": 520889
                 },
                 {
                     "ap1Name": "geometry",
@@ -714,8 +741,8 @@
         {
             "atomType": "Molecule",
             "name": "Misc Chips",
-            "x": 60,
-            "y": 162,
+            "x": 61,
+            "y": 157,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -739,8 +766,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Z-axis Motor Driver",
-                    "x": 94,
-                    "y": 192,
+                    "x": 95,
+                    "y": 195,
                     "uniqueID": 264895,
                     "ioValues": []
                 },
@@ -773,23 +800,19 @@
                     "uniqueID": 559386,
                     "ioValues": [
                         {
-                            "name": "3D shape 670226",
+                            "name": "3D shape 126800",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 670226",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 372866",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 283090",
+                            "name": "3D shape 425517",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 425517",
+                            "name": "3D shape 126800",
                             "ioValue": 10
                         }
                     ],
@@ -804,12 +827,6 @@
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 283090",
-                    "ap1ID": 277038,
-                    "ap2ID": 559386
-                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 425517",
@@ -1799,8 +1816,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Misc Chips",
-                    "x": 60,
-                    "y": 162,
+                    "x": 61,
+                    "y": 157,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
