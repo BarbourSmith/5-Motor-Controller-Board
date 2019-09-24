@@ -1313,8 +1313,8 @@
         {
             "atomType": "Molecule",
             "name": "Power Jack",
-            "x": 315,
-            "y": 278,
+            "x": 273,
+            "y": 244,
             "uniqueID": 487182,
             "ioValues": [],
             "topLevel": false,
@@ -1401,6 +1401,162 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Mounting Hardware",
+            "x": 389,
+            "y": 285,
+            "uniqueID": 515206,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 20mm Spacer",
+                    "x": 173,
+                    "y": 140,
+                    "uniqueID": 688686,
+                    "projectID": "202529921",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 314,
+                    "y": 38,
+                    "uniqueID": 366706,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 312,
+                    "y": 106,
+                    "uniqueID": 136437,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 309,
+                    "y": 174,
+                    "uniqueID": 427782,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 317,
+                    "y": 253,
+                    "uniqueID": 488913,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 574,
+                    "y": 141,
+                    "uniqueID": 115521,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 789185",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 789185",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 688686,
+                    "ap2ID": 488913
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 688686,
+                    "ap2ID": 427782
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 688686,
+                    "ap2ID": 136437
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 688686,
+                    "ap2ID": 366706
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "5 Motor Controller Board",
             "x": 0,
             "y": 0,
@@ -1462,6 +1618,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Power Jack",
+                    "x": 273,
+                    "y": 244,
+                    "uniqueID": 487182,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 323,
@@ -1484,10 +1648,10 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Power Jack",
-                    "x": 315,
-                    "y": 278,
-                    "uniqueID": 487182,
+                    "name": "Mounting Hardware",
+                    "x": 389,
+                    "y": 285,
+                    "uniqueID": 515206,
                     "ioValues": []
                 },
                 {
@@ -1568,15 +1732,15 @@
                     "ap2ID": 186968
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 293672",
-                    "ap1ID": 186968,
-                    "ap2ID": 963382
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 305054",
                     "ap1ID": 487182,
+                    "ap2ID": 963382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 293672",
+                    "ap1ID": 186968,
                     "ap2ID": 963382
                 },
                 {
