@@ -1429,8 +1429,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware Stack",
-            "x": 128,
-            "y": 134,
+            "x": 124,
+            "y": 139,
             "uniqueID": 786488,
             "ioValues": [],
             "topLevel": false,
@@ -1463,22 +1463,72 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 373,
+                    "y": 197,
+                    "uniqueID": 787517,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -15
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 415,
+                    "y": 264,
+                    "uniqueID": 649378,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 599,
-                    "y": 127,
+                    "x": 604,
+                    "y": 129,
                     "uniqueID": 752127,
                     "ioValues": [
                         {
-                            "name": "3D shape 184116",
+                            "name": "3D shape 501993",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 184116",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 347632",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 184116",
+                            "name": "3D shape 227777",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 501993",
                             "ioValue": 10
                         }
                     ],
@@ -1500,6 +1550,30 @@
                     "ap2ID": 752127
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 852151,
+                    "ap2ID": 787517
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 662283,
+                    "ap2ID": 649378
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 184116",
+                    "ap1ID": 787517,
+                    "ap2ID": 752127
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 227777",
+                    "ap1ID": 649378,
+                    "ap2ID": 752127
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 752127
@@ -1510,8 +1584,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Hardware",
-            "x": 356,
-            "y": 281,
+            "x": 359,
+            "y": 284,
             "uniqueID": 515206,
             "ioValues": [],
             "topLevel": false,
@@ -1519,8 +1593,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hardware Stack",
-                    "x": 128,
-                    "y": 134,
+                    "x": 124,
+                    "y": 139,
                     "uniqueID": 786488,
                     "ioValues": []
                 },
@@ -1590,13 +1664,17 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 574,
-                    "y": 141,
+                    "x": 576,
+                    "y": 139,
                     "uniqueID": 115521,
                     "ioValues": [
                         {
                             "name": "3D shape 302764",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 302764",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 326262",
@@ -1608,10 +1686,6 @@
                         },
                         {
                             "name": "3D shape 486960",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 302764",
                             "ioValue": 10
                         }
                     ],
@@ -1764,8 +1838,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Hardware",
-                    "x": 356,
-                    "y": 281,
+                    "x": 359,
+                    "y": 284,
                     "uniqueID": 515206,
                     "ioValues": []
                 },
@@ -1779,6 +1853,10 @@
                         {
                             "name": "3D shape 220873",
                             "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 220873",
+                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 416631",
@@ -1802,10 +1880,6 @@
                         },
                         {
                             "name": "3D shape 293672",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 220873",
                             "ioValue": 10
                         }
                     ],
