@@ -1429,8 +1429,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware Stack",
-            "x": 124,
-            "y": 139,
+            "x": 110,
+            "y": 135,
             "uniqueID": 786488,
             "ioValues": [],
             "topLevel": false,
@@ -1463,6 +1463,27 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 308,
+                    "y": 259,
+                    "uniqueID": 196175,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 373,
@@ -1479,15 +1500,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -15
+                            "ioValue": 33
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 415,
-                    "y": 264,
+                    "x": 448,
+                    "y": 253,
                     "uniqueID": 649378,
                     "ioValues": [
                         {
@@ -1500,7 +1521,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5
+                            "ioValue": -5
                         }
                     ]
                 },
@@ -1559,6 +1580,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 662283,
+                    "ap2ID": 196175
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 196175,
                     "ap2ID": 649378
                 },
                 {
@@ -1584,8 +1611,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Hardware",
-            "x": 359,
-            "y": 284,
+            "x": 360,
+            "y": 287,
             "uniqueID": 515206,
             "ioValues": [],
             "topLevel": false,
@@ -1593,8 +1620,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hardware Stack",
-                    "x": 124,
-                    "y": 139,
+                    "x": 110,
+                    "y": 135,
                     "uniqueID": 786488,
                     "ioValues": []
                 },
@@ -1838,8 +1865,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Hardware",
-                    "x": 359,
-                    "y": 284,
+                    "x": 360,
+                    "y": 287,
                     "uniqueID": 515206,
                     "ioValues": []
                 },
