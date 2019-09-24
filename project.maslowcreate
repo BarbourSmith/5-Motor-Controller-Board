@@ -1429,12 +1429,61 @@
         {
             "atomType": "Molecule",
             "name": "Hardware Stack",
-            "x": 142,
-            "y": 231,
+            "x": 128,
+            "y": 134,
             "uniqueID": 786488,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 20mm Spacer",
+                    "x": 103,
+                    "y": 105,
+                    "uniqueID": 857870,
+                    "projectID": "202529921",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "45mm M4 Bolt",
+                    "x": 124,
+                    "y": 203,
+                    "uniqueID": 852151,
+                    "projectID": "202513625",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 Locknut",
+                    "x": 133,
+                    "y": 262,
+                    "uniqueID": 662283,
+                    "projectID": "201057537",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 599,
+                    "y": 127,
+                    "uniqueID": 752127,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 184116",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 347632",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 184116",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -1443,7 +1492,19 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 347632",
+                    "ap1ID": 857870,
+                    "ap2ID": 752127
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 752127
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -1456,19 +1517,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "M4 20mm Spacer",
-                    "x": 173,
-                    "y": 140,
-                    "uniqueID": 688686,
-                    "projectID": "202529921",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Hardware Stack",
-                    "x": 142,
-                    "y": 231,
+                    "x": 128,
+                    "y": 134,
                     "uniqueID": 786488,
                     "ioValues": []
                 },
@@ -1577,19 +1629,19 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 688686,
+                    "ap1ID": 786488,
                     "ap2ID": 427782
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 688686,
+                    "ap1ID": 786488,
                     "ap2ID": 136437
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 688686,
+                    "ap1ID": 786488,
                     "ap2ID": 366706
                 },
                 {
@@ -1825,5 +1877,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": 1
 }

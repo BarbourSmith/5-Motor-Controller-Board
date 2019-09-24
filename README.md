@@ -136,12 +136,24 @@ undefined
 ## Mounting Hardware
 
 
+## Hardware Stack
+
+
 ## M4 20mm Spacer
 
 
 undefined
 
 
-## Hardware Stack
+## 45mm M4 Bolt
+
+
+undefined
+
+
+## M4 Locknut
+
+
+undefined
 
 
