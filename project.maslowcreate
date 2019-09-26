@@ -67,7 +67,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -243,7 +243,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -386,7 +386,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -511,7 +511,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -599,7 +599,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -661,7 +661,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -706,7 +706,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": ".1uF Capacitor",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -721,7 +721,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "1uF Capacitor",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -760,39 +760,24 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 280,
-                    "y": 240,
-                    "uniqueID": 344667,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 288,
-                    "y": 288,
-                    "uniqueID": 497582,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 399,
-                    "y": 153,
+                    "x": 271,
+                    "y": 237,
                     "uniqueID": 305568,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 276,
+                    "y": 294,
+                    "uniqueID": 601941,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
@@ -805,8 +790,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 439,
-                    "y": 24,
+                    "x": 476,
+                    "y": 37,
                     "uniqueID": 308813,
                     "ioValues": [
                         {
@@ -824,151 +809,10 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 437,
-                    "y": 72,
-                    "uniqueID": 614800,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 395,
-                    "y": 227,
-                    "uniqueID": 601941,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 509,
-                    "y": 99,
-                    "uniqueID": 215074,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 523,
-                    "y": 177,
-                    "uniqueID": 371768,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 560,
-                    "y": 141,
-                    "uniqueID": 784204,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 563,
-                    "y": 241,
-                    "uniqueID": 614427,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 547,
-                    "y": 280,
-                    "uniqueID": 130022,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 618,
-                    "y": 36,
+                    "x": 765,
+                    "y": 33,
                     "uniqueID": 459135,
                     "ioValues": [
                         {
@@ -986,31 +830,10 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 632,
-                    "y": 197,
-                    "uniqueID": 244146,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 673,
-                    "y": 71,
+                    "x": 773,
+                    "y": 78,
                     "uniqueID": 970932,
                     "ioValues": [
                         {
@@ -1030,8 +853,29 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 714,
-                    "y": 154,
+                    "x": 773,
+                    "y": 125,
+                    "uniqueID": 925977,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 778,
+                    "y": 171,
                     "uniqueID": 654144,
                     "ioValues": [
                         {
@@ -1051,29 +895,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 727,
-                    "y": 232,
-                    "uniqueID": 109247,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 757,
-                    "y": 112,
+                    "x": 777,
+                    "y": 220,
                     "uniqueID": 731228,
                     "ioValues": [
                         {
@@ -1093,51 +916,9 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 781,
-                    "y": 196,
+                    "x": 782,
+                    "y": 272,
                     "uniqueID": 384657,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 798,
-                    "y": 273,
-                    "uniqueID": 542284,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 864,
-                    "y": 72,
-                    "uniqueID": 925977,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -1161,12 +942,8 @@
                     "uniqueID": 597596,
                     "ioValues": [
                         {
-                            "name": "3D shape 716745",
+                            "name": "3D shape 814033",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 740781",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 814033",
@@ -1195,10 +972,6 @@
                         {
                             "name": "3D shape 293856",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 716745",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1207,7 +980,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1240,18 +1013,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 527027,
-                    "ap2ID": 344667
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 527027,
-                    "ap2ID": 497582
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 527027,
                     "ap2ID": 305568
                 },
                 {
@@ -1270,37 +1031,31 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 698545,
-                    "ap2ID": 614800
+                    "ap2ID": 970932
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 594544,
-                    "ap2ID": 215074
+                    "ap2ID": 925977
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 437014,
-                    "ap2ID": 371768
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 344667,
-                    "ap2ID": 614427
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 497582,
-                    "ap2ID": 130022
+                    "ap2ID": 654144
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 305568,
-                    "ap2ID": 784204
+                    "ap2ID": 731228
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 601941,
+                    "ap2ID": 384657
                 },
                 {
                     "ap1Name": "geometry",
@@ -1310,57 +1065,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 614800,
-                    "ap2ID": 970932
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 601941,
-                    "ap2ID": 244146
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 215074,
-                    "ap2ID": 925977
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 371768,
-                    "ap2ID": 654144
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 784204,
-                    "ap2ID": 731228
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 614427,
-                    "ap2ID": 109247
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 130022,
-                    "ap2ID": 542284
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 293856",
                     "ap1ID": 459135,
                     "ap2ID": 597596
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 244146,
-                    "ap2ID": 384657
                 },
                 {
                     "ap1Name": "geometry",
@@ -1370,14 +1077,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 925028",
-                    "ap1ID": 654144,
+                    "ap2Name": "3D shape 944821",
+                    "ap1ID": 925977,
                     "ap2ID": 597596
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 814033",
-                    "ap1ID": 109247,
+                    "ap2Name": "3D shape 925028",
+                    "ap1ID": 654144,
                     "ap2ID": 597596
                 },
                 {
@@ -1390,18 +1097,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 821290",
                     "ap1ID": 384657,
-                    "ap2ID": 597596
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 740781",
-                    "ap1ID": 542284,
-                    "ap2ID": 597596
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 944821",
-                    "ap1ID": 925977,
                     "ap2ID": 597596
                 },
                 {
@@ -1565,7 +1260,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1874,7 +1569,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2059,7 +1754,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2217,7 +1912,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2380,7 +2075,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2574,7 +2269,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
