@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 65,
-            "y": 43,
+            "x": 63,
+            "y": 44,
             "uniqueID": 770369,
             "ioValues": [],
             "topLevel": false,
@@ -550,199 +550,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Z-axis Motor Driver",
-            "x": 95,
-            "y": 195,
-            "uniqueID": 264895,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "JST XH 8 Place Right Angle",
-                    "x": 85,
-                    "y": 52,
-                    "uniqueID": 179737,
-                    "projectID": "208456510",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "DRV8873 H-Bridge",
-                    "x": 100,
-                    "y": 244,
-                    "uniqueID": 376644,
-                    "projectID": "208452334",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 264,
-                    "y": 78,
-                    "uniqueID": 748824,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 266,
-                    "y": 246,
-                    "uniqueID": 896803,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 411,
-                    "y": 222,
-                    "uniqueID": 520889,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 492,
-                    "y": 138,
-                    "uniqueID": 541299,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 115576",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 115576",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 783760",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 385209",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 781,
-                    "y": 134,
-                    "uniqueID": 442550,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": -90
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 179737,
-                    "ap2ID": 748824
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 376644,
-                    "ap2ID": 896803
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 385209",
-                    "ap1ID": 748824,
-                    "ap2ID": 541299
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 896803,
-                    "ap2ID": 520889
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 783760",
-                    "ap1ID": 520889,
-                    "ap2ID": 541299
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 541299,
-                    "ap2ID": 442550
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 442550
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Misc Chips",
-            "x": 61,
-            "y": 157,
+            "x": 67,
+            "y": 159,
             "uniqueID": 682781,
             "ioValues": [],
             "topLevel": false,
@@ -764,35 +574,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Z-axis Motor Driver",
-                    "x": 95,
-                    "y": 195,
-                    "uniqueID": 264895,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 363,
-                    "y": 201,
-                    "uniqueID": 268511,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 25
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 652,
@@ -800,12 +581,8 @@
                     "uniqueID": 559386,
                     "ioValues": [
                         {
-                            "name": "3D shape 126800",
+                            "name": "3D shape 372866",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 126800",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 372866",
@@ -834,18 +611,6 @@
                     "ap2ID": 559386
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 264895,
-                    "ap2ID": 268511
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 372866",
-                    "ap1ID": 268511,
-                    "ap2ID": 559386
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 559386
@@ -856,8 +621,8 @@
         {
             "atomType": "Molecule",
             "name": "One Motor Driver",
-            "x": 96,
-            "y": 122,
+            "x": 33,
+            "y": 53,
             "uniqueID": 225763,
             "ioValues": [],
             "topLevel": false,
@@ -1046,8 +811,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
-            "x": 71,
-            "y": 233,
+            "x": 63,
+            "y": 222,
             "uniqueID": 121396,
             "ioValues": [],
             "topLevel": false,
@@ -1055,16 +820,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Motor Driver",
-                    "x": 96,
-                    "y": 122,
+                    "x": 33,
+                    "y": 53,
                     "uniqueID": 225763,
                     "ioValues": []
                 },
                 {
                     "atomType": "Constant",
                     "name": "Move Apart",
-                    "x": 136,
-                    "y": 234,
+                    "x": 125,
+                    "y": 218,
                     "uniqueID": 698176,
                     "ioValues": [
                         {
@@ -1076,8 +841,29 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 305,
-                    "y": 75,
+                    "x": 289,
+                    "y": 27,
+                    "uniqueID": 527496,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 285,
+                    "y": 85,
                     "uniqueID": 264198,
                     "ioValues": [
                         {
@@ -1097,8 +883,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 284,
-                    "y": 257,
+                    "x": 271,
+                    "y": 267,
                     "uniqueID": 878069,
                     "ioValues": [
                         {
@@ -1111,17 +897,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 439,
-                    "y": 126,
-                    "uniqueID": 377530,
+                    "x": 443,
+                    "y": 40,
+                    "uniqueID": 377888,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": 35
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 30
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -1132,8 +918,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 474,
-                    "y": 37,
+                    "x": 445,
+                    "y": 113,
                     "uniqueID": 496080,
                     "ioValues": [
                         {
@@ -1153,8 +939,29 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 460,
-                    "y": 207,
+                    "x": 448,
+                    "y": 164,
+                    "uniqueID": 377530,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -15
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 452,
+                    "y": 224,
                     "uniqueID": 805681,
                     "ioValues": [
                         {
@@ -1174,8 +981,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 473,
-                    "y": 276,
+                    "x": 454,
+                    "y": 282,
                     "uniqueID": 751042,
                     "ioValues": [
                         {
@@ -1200,7 +1007,7 @@
                     "uniqueID": 686899,
                     "ioValues": [
                         {
-                            "name": "3D shape 109811",
+                            "name": "3D shape 168793",
                             "ioValue": ""
                         },
                         {
@@ -1221,6 +1028,10 @@
                         },
                         {
                             "name": "3D shape 577925",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 168793",
                             "ioValue": 10
                         }
                     ],
@@ -1275,6 +1086,12 @@
                     "ap2ID": 264198
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 225763,
+                    "ap2ID": 527496
+                },
+                {
                     "ap1Name": "number",
                     "ap2Name": "M",
                     "ap1ID": 698176,
@@ -1291,6 +1108,12 @@
                     "ap2Name": "yDist",
                     "ap1ID": 698176,
                     "ap2ID": 496080
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 527496,
+                    "ap2ID": 377888
                 },
                 {
                     "ap1Name": "geometry",
@@ -1318,14 +1141,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 336445",
-                    "ap1ID": 377530,
+                    "ap2Name": "3D shape 109811",
+                    "ap1ID": 377888,
                     "ap2ID": 686899
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 577925",
                     "ap1ID": 496080,
+                    "ap2ID": 686899
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 336445",
+                    "ap1ID": 377530,
                     "ap2ID": 686899
                 },
                 {
@@ -1628,8 +1457,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Hardware",
-            "x": 360,
-            "y": 287,
+            "x": 364,
+            "y": 288,
             "uniqueID": 515206,
             "ioValues": [],
             "topLevel": false,
@@ -1666,8 +1495,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 312,
-                    "y": 106,
+                    "x": 306,
+                    "y": 112,
                     "uniqueID": 136437,
                     "ioValues": [
                         {
@@ -1800,8 +1629,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 65,
-                    "y": 43,
+                    "x": 63,
+                    "y": 44,
                     "uniqueID": 770369,
                     "ioValues": []
                 },
@@ -1816,8 +1645,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Misc Chips",
-                    "x": 61,
-                    "y": 157,
+                    "x": 67,
+                    "y": 159,
                     "uniqueID": 682781,
                     "ioValues": []
                 },
@@ -1845,8 +1674,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Driver Sub Assembly",
-                    "x": 71,
-                    "y": 233,
+                    "x": 63,
+                    "y": 222,
                     "uniqueID": 121396,
                     "ioValues": []
                 },
@@ -1882,8 +1711,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Hardware",
-                    "x": 360,
-                    "y": 287,
+                    "x": 364,
+                    "y": 288,
                     "uniqueID": 515206,
                     "ioValues": []
                 },
