@@ -620,9 +620,155 @@
         },
         {
             "atomType": "Molecule",
+            "name": "0805 package",
+            "x": 73,
+            "y": 71,
+            "uniqueID": 527027,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 177,
+                    "y": 86,
+                    "uniqueID": 856368,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 333,
+                    "y": 108,
+                    "uniqueID": 653693,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 856368,
+                    "ap2ID": 653693
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 653693
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "1207 Package",
+            "x": 74,
+            "y": 125,
+            "uniqueID": 729565,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Capacitor",
+            "x": 96,
+            "y": 211,
+            "uniqueID": 216776,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Support Electronics",
+            "x": 109,
+            "y": 256,
+            "uniqueID": 235431,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "0805 package",
+                    "x": 73,
+                    "y": 71,
+                    "uniqueID": 527027,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "1207 Package",
+                    "x": 74,
+                    "y": 125,
+                    "uniqueID": 729565,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Capacitor",
+                    "x": 96,
+                    "y": 211,
+                    "uniqueID": 216776,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "One Motor Driver",
-            "x": 33,
-            "y": 53,
+            "x": 30,
+            "y": 57,
             "uniqueID": 225763,
             "ioValues": [],
             "topLevel": false,
@@ -630,8 +776,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "DRV8873 H-Bridge",
-                    "x": 102,
-                    "y": 92,
+                    "x": 75,
+                    "y": 69,
                     "uniqueID": 611552,
                     "projectID": "208452334",
                     "ioValues": []
@@ -639,8 +785,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "JST XH 8 Place Right Angle",
-                    "x": 127,
-                    "y": 192,
+                    "x": 77,
+                    "y": 142,
                     "uniqueID": 217932,
                     "projectID": "208456510",
                     "ioValues": []
@@ -648,8 +794,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 265,
-                    "y": 72,
+                    "x": 267,
+                    "y": 49,
                     "uniqueID": 121622,
                     "ioValues": [
                         {
@@ -667,10 +813,18 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Support Electronics",
+                    "x": 109,
+                    "y": 256,
+                    "uniqueID": 235431,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 243,
-                    "y": 210,
+                    "x": 271,
+                    "y": 139,
                     "uniqueID": 562717,
                     "ioValues": [
                         {
@@ -690,8 +844,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 381,
-                    "y": 60,
+                    "x": 462,
+                    "y": 54,
                     "uniqueID": 960193,
                     "ioValues": [
                         {
@@ -711,8 +865,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 355,
-                    "y": 161,
+                    "x": 463,
+                    "y": 131,
                     "uniqueID": 204270,
                     "ioValues": [
                         {
@@ -732,8 +886,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 468,
-                    "y": 104,
+                    "x": 637,
+                    "y": 94,
                     "uniqueID": 484033,
                     "ioValues": [
                         {
@@ -811,8 +965,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
-            "x": 63,
-            "y": 222,
+            "x": 55,
+            "y": 224,
             "uniqueID": 121396,
             "ioValues": [],
             "topLevel": false,
@@ -820,8 +974,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Motor Driver",
-                    "x": 33,
-                    "y": 53,
+                    "x": 30,
+                    "y": 57,
                     "uniqueID": 225763,
                     "ioValues": []
                 },
@@ -1011,6 +1165,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 168793",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 109811",
                             "ioValue": 10
                         },
@@ -1028,10 +1186,6 @@
                         },
                         {
                             "name": "3D shape 577925",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 168793",
                             "ioValue": 10
                         }
                     ],
@@ -1674,8 +1828,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Driver Sub Assembly",
-                    "x": 63,
-                    "y": 222,
+                    "x": 55,
+                    "y": 224,
                     "uniqueID": 121396,
                     "ioValues": []
                 },
