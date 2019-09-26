@@ -683,7 +683,7 @@
         {
             "atomType": "Molecule",
             "name": "0805 Parts",
-            "x": 453,
+            "x": 458,
             "y": 255,
             "uniqueID": 235431,
             "ioValues": [],
@@ -705,7 +705,7 @@
                     "uniqueID": 486919,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
+                        "BOMitemName": ".1uF Capacitor",
                         "numberNeeded": 0,
                         "costUSD": 0,
                         "source": "www.example.com",
@@ -720,7 +720,7 @@
                     "uniqueID": 698545,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
+                        "BOMitemName": "1uF Capacitor",
                         "numberNeeded": 0,
                         "costUSD": 0,
                         "source": "www.example.com",
@@ -973,11 +973,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -4
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "zDist",
@@ -1526,7 +1526,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "0805 Parts",
-                    "x": 453,
+                    "x": 458,
                     "y": 255,
                     "uniqueID": 235431,
                     "ioValues": []

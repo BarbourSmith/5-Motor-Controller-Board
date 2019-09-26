@@ -13,6 +13,8 @@
 |20mm M4 Spacer Aluminum|3|$5.58|https://www.mcmaster.com/94669a090|
 |15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
 |name|0|$0.00|www.example.com|
+|1uF Capacitor|0|$0.00|www.example.com|
+|.1uF Capacitor|0|$0.00|www.example.com|
 |Total: |25|$28.48| |
 
  3xCOG MSRP: $85.44
