@@ -736,7 +736,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -751,7 +751,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -766,7 +766,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
@@ -781,7 +781,7 @@
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "numberNeeded": 1,
                         "costUSD": 0,
                         "source": "www.example.com",
                         "totalNeeded": 0
