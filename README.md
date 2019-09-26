@@ -91,16 +91,34 @@ undefined
 undefined
 
 
-## Support Electronics
+## 0805 Parts
 
 
 ## 0805 package
 
 
-## 1207 Package
+undefined
 
 
-## Capacitor
+undefined
+
+
+undefined
+
+
+undefined
+
+
+undefined
+
+
+undefined
+
+
+undefined
+
+
+undefined
 
 
 ## Power Jack
