@@ -1119,8 +1119,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 88,
-                    "y": 113,
+                    "x": 90,
+                    "y": 119,
                     "uniqueID": 315193,
                     "ioValues": [
                         {
@@ -1136,8 +1136,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 252,
-                    "y": 105,
+                    "x": 261,
+                    "y": 116,
                     "uniqueID": 503532,
                     "ioValues": [
                         {
@@ -1149,23 +1149,23 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 420,
-                    "y": 99,
+                    "x": 438,
+                    "y": 116,
                     "uniqueID": 765189,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "1.5k Sense Resistor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.01107,
+                        "source": "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD1K50/RNCP1206FTD1K50TR-ND/2240341",
                         "totalNeeded": 0
                     }
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 636,
-                    "y": 102,
+                    "x": 641,
+                    "y": 66,
                     "uniqueID": 516801,
                     "ioValues": [
                         {
@@ -1300,7 +1300,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 5
+                            "ioValue": 6.3
                         }
                     ]
                 },
@@ -1313,7 +1313,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 6
+                            "ioValue": 5.8
                         }
                     ]
                 },
@@ -1325,18 +1325,27 @@
                     "uniqueID": 601968,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "BOMitemName": "22uF Capacitor",
+                        "numberNeeded": 1,
+                        "costUSD": 0.0938,
+                        "source": "https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA220WP/PCE3920TR-ND/766087",
                         "totalNeeded": 0
                     }
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 820,
+                    "y": 137,
+                    "uniqueID": 152165,
+                    "ioValues": [],
+                    "selectedColorIndex": "0"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 882,
-                    "y": 129,
+                    "x": 998,
+                    "y": 132,
                     "uniqueID": 808550,
                     "ioValues": [
                         {
@@ -1378,6 +1387,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 601968,
+                    "ap2ID": 152165
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 152165,
                     "ap2ID": 808550
                 },
                 {
@@ -2281,8 +2296,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Hardware",
-            "x": 364,
-            "y": 288,
+            "x": 349,
+            "y": 280,
             "uniqueID": 515206,
             "ioValues": [],
             "topLevel": false,
@@ -2535,8 +2550,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Hardware",
-                    "x": 364,
-                    "y": 288,
+                    "x": 349,
+                    "y": 280,
                     "uniqueID": 515206,
                     "ioValues": []
                 },

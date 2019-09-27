@@ -8,16 +8,16 @@
 |Power Plug|1|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
 |47nF Capacitor|5|$0.13|https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165|
 |7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
+|22uF Capacitor|5|$0.47|https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA220WP/PCE3920TR-ND/766087|
 |1uF Capacitor|10|$0.15|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724|
 |.1uF Capacitor|10|$0.07|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665|
 |10k Resistor|5|$0.05|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0TR-ND/2240262|
+|1.5k Sense Resistor|10|$0.11|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD1K50/RNCP1206FTD1K50TR-ND/2240341|
 |DRV8873|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |45MM M4 Bolt|3|$0.86|https://www.mcmaster.com/91502a134|
 |M4 Locknut|3|$0.35|https://www.mcmaster.com/94645a101|
 |20mm M4 Spacer Aluminum|3|$5.58|https://www.mcmaster.com/94669a090|
 |15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
-|1.5k Sense Resistor|10|$0.00|www.example.com|
-|name|0|$0.00|www.example.com|
-|Total: |65|$28.88| |
+|Total: |70|$29.46| |
 
- 3xCOG MSRP: $86.64
+ 3xCOG MSRP: $88.38
