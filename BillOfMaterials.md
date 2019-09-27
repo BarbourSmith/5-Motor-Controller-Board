@@ -12,9 +12,11 @@
 |M4 Locknut|3|$0.35|https://www.mcmaster.com/94645a101|
 |20mm M4 Spacer Aluminum|3|$5.58|https://www.mcmaster.com/94669a090|
 |15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
-|name|20|$0.00|www.example.com|
-|1uF Capacitor|5|$0.00|www.example.com|
-|.1uF Capacitor|5|$0.00|www.example.com|
-|Total: |55|$28.48| |
+|1.5k Sense Resistor|10|$0.00|www.example.com|
+|10k Resistor|5|$0.00|www.example.com|
+|.1uF Capacitor|10|$0.00|www.example.com|
+|1uF Capacitor|10|$0.00|www.example.com|
+|47nF Capacitor|5|$0.00|www.example.com|
+|Total: |65|$28.48| |
 
  3xCOG MSRP: $85.44
