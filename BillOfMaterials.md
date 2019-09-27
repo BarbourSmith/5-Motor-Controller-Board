@@ -17,6 +17,7 @@
 |.1uF Capacitor|10|$0.00|www.example.com|
 |1uF Capacitor|10|$0.00|www.example.com|
 |47nF Capacitor|5|$0.00|www.example.com|
+|name|0|$0.00|www.example.com|
 |Total: |65|$28.48| |
 
  3xCOG MSRP: $85.44
