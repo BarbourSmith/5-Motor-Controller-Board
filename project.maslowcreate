@@ -707,8 +707,8 @@
                     "BOMitem": {
                         "BOMitemName": ".1uF Capacitor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.00729,
+                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665",
                         "totalNeeded": 0
                     }
                 },
@@ -722,8 +722,8 @@
                     "BOMitem": {
                         "BOMitemName": "1uF Capacitor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.015,
+                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724",
                         "totalNeeded": 0
                     }
                 },
@@ -737,8 +737,8 @@
                     "BOMitem": {
                         "BOMitemName": "47nF Capacitor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.02578,
+                        "source": "https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165",
                         "totalNeeded": 0
                     }
                 },
@@ -752,8 +752,8 @@
                     "BOMitem": {
                         "BOMitemName": ".1uF Capacitor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.00729,
+                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665",
                         "totalNeeded": 0
                     }
                 },
@@ -767,8 +767,8 @@
                     "BOMitem": {
                         "BOMitemName": "1uF Capacitor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.015,
+                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724",
                         "totalNeeded": 0
                     }
                 },
@@ -782,8 +782,8 @@
                     "BOMitem": {
                         "BOMitemName": "10k Resistor",
                         "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": "www.example.com",
+                        "costUSD": 0.00958,
+                        "source": "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0TR-ND/2240262",
                         "totalNeeded": 0
                     }
                 },
