@@ -66,8 +66,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -242,8 +242,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -385,8 +385,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -510,8 +510,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -598,8 +598,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -660,8 +660,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -979,8 +979,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1232,8 +1232,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1365,8 +1365,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1579,8 +1579,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1900,8 +1900,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2085,8 +2085,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2121,10 +2121,23 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 134,
+                    "y": 85,
+                    "uniqueID": 453343,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "M4 20mm Spacer",
-                    "x": 103,
-                    "y": 105,
+                    "x": 128,
+                    "y": 148,
                     "uniqueID": 857870,
                     "projectID": "202529921",
                     "ioValues": []
@@ -2132,11 +2145,24 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "45mm M4 Bolt",
-                    "x": 124,
-                    "y": 203,
+                    "x": 138,
+                    "y": 202,
                     "uniqueID": 852151,
                     "projectID": "202513625",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 256,
+                    "y": 92,
+                    "uniqueID": 441231,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 30
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -2146,6 +2172,27 @@
                     "uniqueID": 662283,
                     "projectID": "201057537",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 372,
+                    "y": 90,
+                    "uniqueID": 310915,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 33
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -2171,8 +2218,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 373,
-                    "y": 197,
+                    "x": 375,
+                    "y": 202,
                     "uniqueID": 787517,
                     "ioValues": [
                         {
@@ -2188,6 +2235,15 @@
                             "ioValue": 33
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 480,
+                    "y": 97,
+                    "uniqueID": 264739,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
                 },
                 {
                     "atomType": "Translate",
@@ -2218,7 +2274,7 @@
                     "uniqueID": 752127,
                     "ioValues": [
                         {
-                            "name": "3D shape 501993",
+                            "name": "3D shape 493463",
                             "ioValue": ""
                         },
                         {
@@ -2236,6 +2292,10 @@
                         {
                             "name": "3D shape 227777",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 493463",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -2243,12 +2303,18 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 453343,
+                    "ap2ID": 441231
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 347632",
@@ -2262,10 +2328,22 @@
                     "ap2ID": 787517
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 441231,
+                    "ap2ID": 310915
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 662283,
                     "ap2ID": 196175
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 310915,
+                    "ap2ID": 264739
                 },
                 {
                     "ap1Name": "geometry",
@@ -2277,6 +2355,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 184116",
                     "ap1ID": 787517,
+                    "ap2ID": 752127
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 501993",
+                    "ap1ID": 264739,
                     "ap2ID": 752127
                 },
                 {
@@ -2406,8 +2490,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2600,8 +2684,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1001,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
