@@ -2123,13 +2123,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 134,
-                    "y": 85,
+                    "x": 136,
+                    "y": 81,
                     "uniqueID": 453343,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -2278,6 +2278,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 493463",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 501993",
                             "ioValue": 10
                         },
@@ -2291,10 +2295,6 @@
                         },
                         {
                             "name": "3D shape 227777",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 493463",
                             "ioValue": 10
                         }
                     ],
