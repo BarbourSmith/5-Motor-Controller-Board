@@ -217,14 +217,6 @@
                     "uniqueID": 900775,
                     "ioValues": [
                         {
-                            "name": "3D shape 158820",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 158820",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 817506",
                             "ioValue": 10
                         },
@@ -581,14 +573,6 @@
                     "uniqueID": 559386,
                     "ioValues": [
                         {
-                            "name": "3D shape 372866",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 372866",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 425517",
                             "ioValue": 10
                         }
@@ -942,14 +926,6 @@
                     "uniqueID": 597596,
                     "ioValues": [
                         {
-                            "name": "3D shape 814033",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 814033",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 821290",
                             "ioValue": 10
                         },
@@ -1210,14 +1186,6 @@
                     "y": 137,
                     "uniqueID": 874916,
                     "ioValues": [
-                        {
-                            "name": "3D shape 821513",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 821513",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 233292",
                             "ioValue": 10
@@ -1546,14 +1514,6 @@
                     "uniqueID": 484033,
                     "ioValues": [
                         {
-                            "name": "3D shape 324493",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 324493",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 160404",
                             "ioValue": 10
                         },
@@ -1650,8 +1610,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor Driver Sub Assembly",
-            "x": 52,
-            "y": 224,
+            "x": 98,
+            "y": 218,
             "uniqueID": 121396,
             "ioValues": [],
             "topLevel": false,
@@ -1845,14 +1805,6 @@
                     "y": 156,
                     "uniqueID": 686899,
                     "ioValues": [
-                        {
-                            "name": "3D shape 168793",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 168793",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 109811",
                             "ioValue": 10
@@ -2274,14 +2226,6 @@
                     "uniqueID": 752127,
                     "ioValues": [
                         {
-                            "name": "3D shape 493463",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 493463",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 501993",
                             "ioValue": 10
                         },
@@ -2465,14 +2409,6 @@
                     "uniqueID": 115521,
                     "ioValues": [
                         {
-                            "name": "3D shape 302764",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 302764",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 326262",
                             "ioValue": 10
                         },
@@ -2597,8 +2533,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor Driver Sub Assembly",
-                    "x": 52,
-                    "y": 224,
+                    "x": 98,
+                    "y": 218,
                     "uniqueID": 121396,
                     "ioValues": []
                 },
@@ -2609,27 +2545,6 @@
                     "y": 244,
                     "uniqueID": 487182,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 323,
-                    "y": 193,
-                    "uniqueID": 186968,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2646,14 +2561,6 @@
                     "y": 103,
                     "uniqueID": 963382,
                     "ioValues": [
-                        {
-                            "name": "3D shape 220873",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 220873",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 416631",
                             "ioValue": 10
@@ -2716,20 +2623,14 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "3D shape 293672",
                     "ap1ID": 121396,
-                    "ap2ID": 186968
+                    "ap2ID": 963382
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 305054",
                     "ap1ID": 487182,
-                    "ap2ID": 963382
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 293672",
-                    "ap1ID": 186968,
                     "ap2ID": 963382
                 },
                 {
