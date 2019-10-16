@@ -67,7 +67,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -235,7 +235,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -378,7 +378,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -503,7 +503,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -583,7 +583,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -645,7 +645,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -956,7 +956,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1201,7 +1201,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1334,7 +1334,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1540,7 +1540,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1853,7 +1853,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2038,7 +2038,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2248,7 +2248,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2427,7 +2427,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2589,10 +2589,90 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 598,
+                    "y": 232,
+                    "uniqueID": 290229,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 726,
+                    "y": 167,
+                    "uniqueID": 525660,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 794,
+                    "y": 253,
+                    "uniqueID": 530892,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 893,
+                    "y": 226,
+                    "uniqueID": 608785,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 981,
+                    "y": 176,
+                    "uniqueID": 413037,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2643,6 +2723,36 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 963382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 290229,
+                    "ap2ID": 525660
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 525660,
+                    "ap2ID": 530892
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 525660,
+                    "ap2ID": 413037
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 530892,
+                    "ap2ID": 608785
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 608785,
+                    "ap2ID": 413037
                 }
             ],
             "fileTypeVersion": 1
