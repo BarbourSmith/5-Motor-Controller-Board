@@ -49,13 +49,13 @@ undefined
 ## Misc Chips
 
 
-## SPI Motor Controller
+## Voltage Regulator
 
 
 undefined
 
 
-## Voltage Regulator
+## SPI Motor Controller
 
 
 undefined
