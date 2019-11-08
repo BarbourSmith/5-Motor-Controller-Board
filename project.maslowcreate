@@ -760,11 +760,11 @@
                     "ioValues": [
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -6
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 6
                         },
                         {
                             "name": "z-axis degrees",
@@ -775,17 +775,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 638,
-                    "y": 100,
+                    "x": 631,
+                    "y": 99,
                     "uniqueID": 387101,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -6
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
@@ -802,7 +802,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -4
+                            "ioValue": -5
                         },
                         {
                             "name": "yDist",
@@ -844,11 +844,32 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -4
+                            "ioValue": -5
                         },
                         {
                             "name": "yDist",
                             "ioValue": 8
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 803,
+                    "y": 78,
+                    "uniqueID": 654144,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 3
                         },
                         {
                             "name": "zDist",
@@ -870,27 +891,6 @@
                         {
                             "name": "yDist",
                             "ioValue": 5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 812,
-                    "y": 74,
-                    "uniqueID": 654144,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 8
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 3
                         },
                         {
                             "name": "zDist",
@@ -1064,14 +1064,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 944821",
-                    "ap1ID": 925977,
+                    "ap2Name": "3D shape 925028",
+                    "ap1ID": 654144,
                     "ap2ID": 597596
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 925028",
-                    "ap1ID": 654144,
+                    "ap2Name": "3D shape 944821",
+                    "ap1ID": 925977,
                     "ap2ID": 597596
                 },
                 {
