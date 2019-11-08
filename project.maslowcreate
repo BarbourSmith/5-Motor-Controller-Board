@@ -677,8 +677,8 @@
         {
             "atomType": "Molecule",
             "name": "0805 Parts",
-            "x": 463,
-            "y": 190,
+            "x": 435,
+            "y": 202,
             "uniqueID": 235431,
             "ioValues": [],
             "topLevel": false,
@@ -694,12 +694,12 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 270,
-                    "y": 35,
+                    "x": 251,
+                    "y": 60,
                     "uniqueID": 486919,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": ".1uF Capacitor",
+                        "BOMitemName": ".1uF (100nF) Capacitor",
                         "numberNeeded": 1,
                         "costUSD": 0.00729,
                         "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665",
@@ -709,53 +709,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 272,
-                    "y": 83,
-                    "uniqueID": 698545,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "1uF Capacitor",
-                        "numberNeeded": 1,
-                        "costUSD": 0.015,
-                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 275,
-                    "y": 140,
-                    "uniqueID": 594544,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "47nF Capacitor",
-                        "numberNeeded": 1,
-                        "costUSD": 0.02578,
-                        "source": "https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 277,
-                    "y": 191,
-                    "uniqueID": 437014,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": ".1uF Capacitor",
-                        "numberNeeded": 1,
-                        "costUSD": 0.00729,
-                        "source": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 271,
-                    "y": 237,
+                    "x": 265,
+                    "y": 129,
                     "uniqueID": 305568,
                     "ioValues": [],
                     "BOMitem": {
@@ -769,8 +724,23 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 276,
-                    "y": 294,
+                    "x": 264,
+                    "y": 191,
+                    "uniqueID": 594544,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "47nF Capacitor",
+                        "numberNeeded": 1,
+                        "costUSD": 0.02578,
+                        "source": "https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 262,
+                    "y": 289,
                     "uniqueID": 601941,
                     "ioValues": [],
                     "BOMitem": {
@@ -784,8 +754,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 525,
-                    "y": 177,
+                    "x": 560,
+                    "y": 71,
                     "uniqueID": 611146,
                     "ioValues": [
                         {
@@ -805,8 +775,29 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 765,
-                    "y": 33,
+                    "x": 638,
+                    "y": 100,
+                    "uniqueID": 387101,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 755,
+                    "y": 34,
                     "uniqueID": 459135,
                     "ioValues": [
                         {
@@ -826,71 +817,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 773,
-                    "y": 78,
-                    "uniqueID": 970932,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 4
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 773,
-                    "y": 125,
-                    "uniqueID": 925977,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 778,
-                    "y": 171,
-                    "uniqueID": 654144,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 8
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 777,
-                    "y": 220,
+                    "x": 727,
+                    "y": 211,
                     "uniqueID": 731228,
                     "ioValues": [
                         {
@@ -910,8 +838,71 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 782,
-                    "y": 272,
+                    "x": 733,
+                    "y": 293,
+                    "uniqueID": 752815,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -4
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 792,
+                    "y": 166,
+                    "uniqueID": 925977,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 812,
+                    "y": 74,
+                    "uniqueID": 654144,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 807,
+                    "y": 241,
                     "uniqueID": 384657,
                     "ioValues": [
                         {
@@ -931,8 +922,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 948,
-                    "y": 146,
+                    "x": 1098,
+                    "y": 134,
                     "uniqueID": 597596,
                     "ioValues": [
                         {
@@ -952,11 +943,15 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 261435",
+                            "name": "3D shape 293856",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 293856",
+                            "name": "3D shape 213458",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 110752",
                             "ioValue": 10
                         }
                     ],
@@ -981,19 +976,7 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 527027,
-                    "ap2ID": 698545
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 527027,
                     "ap2ID": 594544
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 527027,
-                    "ap2ID": 437014
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1016,20 +999,14 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 698545,
-                    "ap2ID": 970932
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 594544,
-                    "ap2ID": 925977
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 437014,
+                    "ap1ID": 486919,
                     "ap2ID": 611146
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 486919,
+                    "ap2ID": 387101
                 },
                 {
                     "ap1Name": "geometry",
@@ -1040,8 +1017,20 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 594544,
+                    "ap2ID": 925977
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 601941,
                     "ap2ID": 384657
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 601941,
+                    "ap2ID": 752815
                 },
                 {
                     "ap1Name": "geometry",
@@ -1051,14 +1040,26 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 110752",
+                    "ap1ID": 387101,
+                    "ap2ID": 597596
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 293856",
                     "ap1ID": 459135,
                     "ap2ID": 597596
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 261435",
-                    "ap1ID": 970932,
+                    "ap2Name": "3D shape 265522",
+                    "ap1ID": 731228,
+                    "ap2ID": 597596
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 213458",
+                    "ap1ID": 752815,
                     "ap2ID": 597596
                 },
                 {
@@ -1071,12 +1072,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 925028",
                     "ap1ID": 654144,
-                    "ap2ID": 597596
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 265522",
-                    "ap1ID": 731228,
                     "ap2ID": 597596
                 },
                 {
@@ -1096,8 +1091,8 @@
         {
             "atomType": "Molecule",
             "name": "1206 Parts",
-            "x": 466,
-            "y": 233,
+            "x": 488,
+            "y": 254,
             "uniqueID": 371405,
             "ioValues": [],
             "topLevel": false,
@@ -1150,29 +1145,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 641,
-                    "y": 66,
-                    "uniqueID": 516801,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -6
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 15
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 645,
-                    "y": 173,
+                    "x": 653,
+                    "y": 127,
                     "uniqueID": 707340,
                     "ioValues": [
                         {
@@ -1198,10 +1172,6 @@
                     "ioValues": [
                         {
                             "name": "3D shape 233292",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 489473",
                             "ioValue": 10
                         }
                     ],
@@ -1236,18 +1206,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 765189,
-                    "ap2ID": 516801
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 489473",
-                    "ap1ID": 516801,
-                    "ap2ID": 874916
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 233292",
                     "ap1ID": 707340,
                     "ap2ID": 874916
@@ -1263,8 +1221,8 @@
         {
             "atomType": "Molecule",
             "name": "Large Capacitor",
-            "x": 486,
-            "y": 281,
+            "x": 586,
+            "y": 278,
             "uniqueID": 336086,
             "ioValues": [],
             "topLevel": false,
@@ -1384,8 +1342,8 @@
         {
             "atomType": "Molecule",
             "name": "One Motor Driver",
-            "x": 29,
-            "y": 53,
+            "x": 68,
+            "y": 105,
             "uniqueID": 225763,
             "ioValues": [],
             "topLevel": false,
@@ -1472,6 +1430,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "0805 Parts",
+                    "x": 435,
+                    "y": 202,
+                    "uniqueID": 235431,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 463,
@@ -1494,26 +1460,10 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "0805 Parts",
-                    "x": 463,
-                    "y": 190,
-                    "uniqueID": 235431,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "1206 Parts",
-                    "x": 466,
-                    "y": 233,
+                    "x": 488,
+                    "y": 254,
                     "uniqueID": 371405,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Large Capacitor",
-                    "x": 486,
-                    "y": 281,
-                    "uniqueID": 336086,
                     "ioValues": []
                 },
                 {
@@ -1545,6 +1495,14 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Large Capacitor",
+                    "x": 586,
+                    "y": 278,
+                    "uniqueID": 336086,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -1586,15 +1544,15 @@
                     "ap2ID": 484033
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 658097",
-                    "ap1ID": 204270,
-                    "ap2ID": 484033
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 517876",
                     "ap1ID": 235431,
+                    "ap2ID": 484033
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 658097",
+                    "ap1ID": 204270,
                     "ap2ID": 484033
                 },
                 {
@@ -1604,15 +1562,15 @@
                     "ap2ID": 484033
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 484033
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 267106",
                     "ap1ID": 336086,
                     "ap2ID": 484033
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 484033
                 }
             ],
             "fileTypeVersion": 1
@@ -1629,8 +1587,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Motor Driver",
-                    "x": 29,
-                    "y": 53,
+                    "x": 68,
+                    "y": 105,
                     "uniqueID": 225763,
                     "ioValues": []
                 },
