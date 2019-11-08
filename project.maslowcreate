@@ -487,15 +487,15 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 836,
-                    "y": 116,
+                    "x": 840,
+                    "y": 117,
                     "uniqueID": 532250,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "TLC5947",
+                        "BOMitemName": "TLC59711",
                         "numberNeeded": 1,
-                        "costUSD": 2.82,
-                        "source": "https://www.digikey.com/product-detail/en/texas-instruments/TLC5947RHBT/296-23820-2-ND/1958742",
+                        "costUSD": 1.46,
+                        "source": "https://www.digikey.com/product-detail/en/texas-instruments/TLC59711PWPR/296-36745-2-ND/2962067",
                         "totalNeeded": 0
                     }
                 },
@@ -575,6 +575,10 @@
                         {
                             "name": "3D shape 425517",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 280514",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -592,6 +596,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 425517",
                     "ap1ID": 258403,
+                    "ap2ID": 559386
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 280514",
+                    "ap1ID": 277038,
                     "ap2ID": 559386
                 },
                 {
@@ -2589,86 +2599,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 598,
-                    "y": 232,
-                    "uniqueID": 290229,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 30
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 726,
-                    "y": 167,
-                    "uniqueID": 525660,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 794,
-                    "y": 253,
-                    "uniqueID": 530892,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 893,
-                    "y": 226,
-                    "uniqueID": 608785,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 981,
-                    "y": 176,
-                    "uniqueID": 413037,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -2723,36 +2653,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 963382
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 290229,
-                    "ap2ID": 525660
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 525660,
-                    "ap2ID": 530892
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 525660,
-                    "ap2ID": 413037
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 530892,
-                    "ap2ID": 608785
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 608785,
-                    "ap2ID": 413037
                 }
             ],
             "fileTypeVersion": 1
