@@ -15,10 +15,7 @@
 |1.5k Sense Resistor|5|$0.06|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD1K50/RNCP1206FTD1K50TR-ND/2240341|
 |DRV8873|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
 |TLC59711|1|$1.46|https://www.digikey.com/product-detail/en/texas-instruments/TLC59711PWPR/296-36745-2-ND/2962067|
-|45MM M4 Bolt|4|$1.15|https://www.mcmaster.com/91502a134|
-|M4 Locknut|4|$0.47|https://www.mcmaster.com/94645a101|
-|20mm M4 Spacer Aluminum|4|$7.44|https://www.mcmaster.com/94669a090|
 |15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
-|Total: |74|$33.14| |
+|Total: |62|$24.08| |
 
- 3xCOG MSRP: $99.41
+ 3xCOG MSRP: $72.24
