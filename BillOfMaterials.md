@@ -17,8 +17,8 @@
 |TLC59711|1|$1.46|https://www.digikey.com/product-detail/en/texas-instruments/TLC59711PWPR/296-36745-2-ND/2962067|
 |45MM M4 Bolt|4|$1.15|https://www.mcmaster.com/91502a134|
 |M4 Locknut|4|$0.47|https://www.mcmaster.com/94645a101|
-|25mm M4 Spacer|4|$8.24|https://www.mcmaster.com/94669a092|
+|20mm M4 Spacer Aluminum|4|$7.44|https://www.mcmaster.com/94669a090|
 |15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
-|Total: |74|$33.94| |
+|Total: |74|$33.14| |
 
- 3xCOG MSRP: $101.81
+ 3xCOG MSRP: $99.41
