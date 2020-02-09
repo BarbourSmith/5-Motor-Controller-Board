@@ -2,23 +2,21 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|PCBA Service|1|$4.00|https://macrofab.com/|
-|JST XH 8 Place Connector|5|$0.49|https://www.aliexpress.com/item/32868570445.html|
-|ESP32|1|$4.40|https://www.aliexpress.com/item/32928267626.html|
-|Power Plug|1|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
-|47nF Capacitor|5|$0.13|https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165|
-|7805 Voltage Regulator|1|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
-|22uF Capacitor|5|$0.47|https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA220WP/PCE3920TR-ND/766087|
-|1uF Capacitor|5|$0.07|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724|
-|.1uF (100nF) Capacitor|15|$0.11|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665|
-|10k Resistor|10|$0.10|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0TR-ND/2240262|
-|1.5k Sense Resistor|5|$0.06|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD1K50/RNCP1206FTD1K50TR-ND/2240341|
-|DRV8873|5|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
-|TLC59711|1|$1.46|https://www.digikey.com/product-detail/en/texas-instruments/TLC59711PWPR/296-36745-2-ND/2962067|
-|45MM M4 Bolt|4|$1.15|https://www.mcmaster.com/91502a134|
-|M4 Locknut|4|$0.47|https://www.mcmaster.com/94645a101|
-|20mm M4 Spacer Aluminum|4|$7.44|https://www.mcmaster.com/94669a090|
-|15 Place Female Header|2|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
-|Total: |74|$33.14| |
+|PCBA Service|2|$4.00|https://macrofab.com/|
+|JST XH 8 Place Connector|6|$0.49|https://www.aliexpress.com/item/32868570445.html|
+|ESP32|2|$4.40|https://www.aliexpress.com/item/32928267626.html|
+|Power Plug|2|$0.90|https://www.digikey.com/product-detail/en/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJTR-ND/404626|
+|47nF Capacitor|6|$0.13|https://www.digikey.com/product-detail/en/kemet/C0805C473K5RACTU/399-1166-2-ND/411165|
+|7805 Voltage Regulator|2|$0.21|https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSTR-ND/919331|
+|22uF Capacitor|6|$0.47|https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA220WP/PCE3920TR-ND/766087|
+|1uF Capacitor|6|$0.07|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KAFNNNE/1276-1066-2-ND/3886724|
+|.1uF (100nF) Capacitor|16|$0.11|https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21F104ZBCNNNC/1276-1007-2-ND/3886665|
+|10k Resistor|11|$0.10|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD10K0/RNCP0805FTD10K0TR-ND/2240262|
+|1.5k Sense Resistor|6|$0.06|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP1206FTD1K50/RNCP1206FTD1K50TR-ND/2240341|
+|DRV8873|6|$10.50|https://www.digikey.com/product-detail/en/texas-instruments/DRV8873HPWPR/296-53139-2-ND/9861442|
+|TLC59711|2|$1.46|https://www.digikey.com/product-detail/en/texas-instruments/TLC59711PWPR/296-36745-2-ND/2962067|
+|20mm M4 Spacer Aluminum|5|$7.44|https://www.mcmaster.com/94669a090|
+|15 Place Female Header|3|$1.19|https://www.mouser.co.uk/ProductDetail/Harwin/M20-7861546?qs=sGAEpiMZZMs%252BGHln7q6pmzzqnf3%2F1AeIR0hnMc3ILas=|
+|Total: |81|$31.52| |
 
- 3xCOG MSRP: $99.41
+ 3xCOG MSRP: $94.56
